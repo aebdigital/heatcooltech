@@ -123,8 +123,8 @@ export function ContentPage({ page }: Props) {
                 </nav>
               </div>
 
-              {/* Call to Action in Sidebar */}
-              <div className="rounded-2xl bg-neutral-900 p-8 text-white">
+              {/* Call to Action in Sidebar - Hidden on mobile, moved below content */}
+              <div className="hidden rounded-2xl bg-neutral-900 p-8 text-white lg:block">
                 <p className="font-display text-[20px] font-bold leading-tight">Máte záujem o naše služby?</p>
                 <p className="mt-3 text-[14px] text-neutral-400 leading-relaxed">Kontaktujte nás a vypracujeme Vám nezáväznú cenovú ponuku na mieru.</p>
                 <Link 
@@ -236,6 +236,18 @@ export function ContentPage({ page }: Props) {
                 )}
               </section>
             ) : null}
+
+            {/* Mobile CTA - Under Gallery/Content */}
+            <div className="mt-16 rounded-2xl bg-neutral-900 p-8 text-white lg:hidden" data-reveal>
+              <p className="font-display text-[20px] font-bold leading-tight">Máte záujem o naše služby?</p>
+              <p className="mt-3 text-[14px] text-neutral-400 leading-relaxed">Kontaktujte nás a vypracujeme Vám nezáväznú cenovú ponuku na mieru.</p>
+              <Link 
+                href="/kontakt/" 
+                className="mt-6 inline-flex h-12 items-center justify-center rounded-full bg-[#f0425c] px-6 font-display text-[13px] font-bold uppercase tracking-wider text-white transition-transform hover:scale-105 active:scale-95"
+              >
+                Kontaktovať
+              </Link>
+            </div>
           </article>
         </div>
       </main>
