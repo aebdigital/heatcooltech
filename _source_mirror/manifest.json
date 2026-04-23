@@ -1,0 +1,1336 @@
+{
+  "source": "https://www.heatcooltech2.sk",
+  "scrapedAt": "2026-04-23T11:15:18.577Z",
+  "sitemaps": {
+    "root": "sitemap.xml",
+    "children": [
+      "https://www.heatcooltech2.sk/post-sitemap.xml",
+      "https://www.heatcooltech2.sk/page-sitemap.xml",
+      "https://www.heatcooltech2.sk/bricks_template-sitemap.xml",
+      "https://www.heatcooltech2.sk/category-sitemap.xml"
+    ]
+  },
+  "pages": [
+    {
+      "url": "https://www.heatcooltech2.sk/",
+      "file": "_source_mirror/pages/home.html",
+      "title": "Heatcooltech s.r.o. - montáž, klimatizácie, tepelné čerpadlá"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/ahoj-svet/",
+      "file": "_source_mirror/pages/ahoj-svet.html",
+      "title": "Ahoj svet! - Heatcooltech klimatizácie, tepelné čerpadlá, vykurovanie"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/tepelne-cerpadla/",
+      "file": "_source_mirror/pages/tepelne-cerpadla.html",
+      "title": "Tepelné čerpadlá - Heatcooltech klimatizácie, tepelné čerpadlá, vykurovanie"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/kurenarske-prace-a-vymena-radiatorov/",
+      "file": "_source_mirror/pages/kurenarske-prace-a-vymena-radiatorov.html",
+      "title": "Kurenárske práce a výmena radiátorov - Heatcooltech klimatizácie, tepelné čerpadlá, vykurovanie"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/podlahove-vykurovanie/",
+      "file": "_source_mirror/pages/podlahove-vykurovanie.html",
+      "title": "Podlahové vykurovanie - Heatcooltech klimatizácie, tepelné čerpadlá, vykurovanie"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/klimatizacie/",
+      "file": "_source_mirror/pages/klimatizacie.html",
+      "title": "Klimatizácie - Heatcooltech klimatizácie, tepelné čerpadlá, vykurovanie"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/dotacie/",
+      "file": "_source_mirror/pages/dotacie.html",
+      "title": "Dotácie - Heatcooltech klimatizácie, tepelné čerpadlá, vykurovanie"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/partneri/",
+      "file": "_source_mirror/pages/partneri.html",
+      "title": "Partneri - Heatcooltech klimatizácie, tepelné čerpadlá, vykurovanie"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/template/foot/",
+      "file": "_source_mirror/pages/template__foot.html",
+      "title": "Heatcooltech s.r.o. - montáž, klimatizácie, tepelné čerpadlá"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/template/head/",
+      "file": "_source_mirror/pages/template__head.html",
+      "title": "Heatcooltech s.r.o. - montáž, klimatizácie, tepelné čerpadlá"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/category/nezaradene/",
+      "file": "_source_mirror/pages/category__nezaradene.html",
+      "title": "Nezaradené - Heatcooltech klimatizácie, tepelné čerpadlá, vykurovanie"
+    }
+  ],
+  "restFiles": [
+    "wp_json",
+    "/wp-json/wp/v2/settings",
+    "wp_json_wp_v2_types",
+    "wp_json_wp_v2_taxonomies",
+    "wp_json_wp_v2_categories_per_page_100",
+    "wp_json_wp_v2_tags_per_page_100",
+    "wp_json_wp_v2_users_per_page_100",
+    "wp_json_wp_v2_comments_per_page_100",
+    "wp_json_wp_v2_pages_per_page_100_embed",
+    "wp_json_wp_v2_posts_per_page_100_embed",
+    "wp_json_wp_v2_media_per_page_100",
+    "/wp-json/wp/v2/menu-locations",
+    "wp_json_bricks_v1",
+    "wp_json_bricks_v1_get_templates_data",
+    "wp_json_bricks_v1_get_templates",
+    "wp_json_bricks_v1_get_template_authors",
+    "wp_json_bricks_v1_get_template_bundles",
+    "wp_json_bricks_v1_get_template_tags"
+  ],
+  "assets": [
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/themes/bricks/assets/css/frontend.min.css?x43145&ver=1743871241",
+      "path": "public/wp-content/themes/bricks/assets/css/frontend.min.css"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/themes/bricks/assets/css/frontend/content-default.min.css?x43145&ver=1743871241",
+      "path": "public/wp-content/themes/bricks/assets/css/frontend/content-default.min.css"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/themes/bricks/assets/css/libs/animate.min.css?x43145&ver=1743871241",
+      "path": "public/wp-content/themes/bricks/assets/css/libs/animate.min.css"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/themes/bricks/assets/css/libs/font-awesome-6-brands.min.css?x43145&ver=1743871241",
+      "path": "public/wp-content/themes/bricks/assets/css/libs/font-awesome-6-brands.min.css"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/themes/bricks/assets/js/bricks.min.js?x43145&ver=1743871241",
+      "path": "public/wp-content/themes/bricks/assets/js/bricks.min.js"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/1-1-1308x2048.jpg",
+      "path": "public/wp-content/uploads/2025/04/1-1-1308x2048.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/1-1-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/1-1-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/1-1-192x300.jpg",
+      "path": "public/wp-content/uploads/2025/04/1-1-192x300.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/1-1-654x1024.jpg",
+      "path": "public/wp-content/uploads/2025/04/1-1-654x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/1-1-654x1024.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/1-1-654x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/1-1-768x1202.jpg",
+      "path": "public/wp-content/uploads/2025/04/1-1-768x1202.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/1-1-981x1536.jpg",
+      "path": "public/wp-content/uploads/2025/04/1-1-981x1536.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/1-1.jpg",
+      "path": "public/wp-content/uploads/2025/04/1-1.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/1-1024x768.jpg",
+      "path": "public/wp-content/uploads/2025/04/1-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/1-1024x768.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/1-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/1-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/1-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/1-1536x1152.jpg",
+      "path": "public/wp-content/uploads/2025/04/1-1536x1152.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/1-2048x1536.jpg",
+      "path": "public/wp-content/uploads/2025/04/1-2048x1536.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/1-300x225.jpg",
+      "path": "public/wp-content/uploads/2025/04/1-300x225.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/1-768x576.jpg",
+      "path": "public/wp-content/uploads/2025/04/1-768x576.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/1.jpg",
+      "path": "public/wp-content/uploads/2025/04/1.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/10-1152x1536.jpg",
+      "path": "public/wp-content/uploads/2025/04/10-1152x1536.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/10-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/10-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/10-225x300.jpg",
+      "path": "public/wp-content/uploads/2025/04/10-225x300.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/10-768x1024.jpg",
+      "path": "public/wp-content/uploads/2025/04/10-768x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/10-768x1024.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/10-768x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/10.jpg",
+      "path": "public/wp-content/uploads/2025/04/10.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/100-1024x768.jpg",
+      "path": "public/wp-content/uploads/2025/04/100-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/100-1024x768.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/100-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/100-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/100-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/100-1536x1152.jpg",
+      "path": "public/wp-content/uploads/2025/04/100-1536x1152.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/100-300x225.jpg",
+      "path": "public/wp-content/uploads/2025/04/100-300x225.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/100-768x576.jpg",
+      "path": "public/wp-content/uploads/2025/04/100-768x576.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/100.jpg",
+      "path": "public/wp-content/uploads/2025/04/100.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/101-1024x768.jpg",
+      "path": "public/wp-content/uploads/2025/04/101-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/101-1024x768.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/101-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/101-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/101-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/101-1536x1152.jpg",
+      "path": "public/wp-content/uploads/2025/04/101-1536x1152.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/101-300x225.jpg",
+      "path": "public/wp-content/uploads/2025/04/101-300x225.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/101-768x576.jpg",
+      "path": "public/wp-content/uploads/2025/04/101-768x576.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/101.jpg",
+      "path": "public/wp-content/uploads/2025/04/101.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/102-1024x768.jpg",
+      "path": "public/wp-content/uploads/2025/04/102-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/102-1024x768.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/102-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/102-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/102-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/102-1536x1152.jpg",
+      "path": "public/wp-content/uploads/2025/04/102-1536x1152.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/102-300x225.jpg",
+      "path": "public/wp-content/uploads/2025/04/102-300x225.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/102-768x576.jpg",
+      "path": "public/wp-content/uploads/2025/04/102-768x576.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/102.jpg",
+      "path": "public/wp-content/uploads/2025/04/102.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/103-1024x768.jpg",
+      "path": "public/wp-content/uploads/2025/04/103-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/103-1024x768.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/103-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/103-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/103-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/103-1536x1152.jpg",
+      "path": "public/wp-content/uploads/2025/04/103-1536x1152.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/103-300x225.jpg",
+      "path": "public/wp-content/uploads/2025/04/103-300x225.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/103-768x576.jpg",
+      "path": "public/wp-content/uploads/2025/04/103-768x576.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/103.jpg",
+      "path": "public/wp-content/uploads/2025/04/103.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/104-1024x768.jpg",
+      "path": "public/wp-content/uploads/2025/04/104-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/104-1024x768.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/104-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/104-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/104-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/104-1536x1152.jpg",
+      "path": "public/wp-content/uploads/2025/04/104-1536x1152.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/104-300x225.jpg",
+      "path": "public/wp-content/uploads/2025/04/104-300x225.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/104-768x576.jpg",
+      "path": "public/wp-content/uploads/2025/04/104-768x576.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/104.jpg",
+      "path": "public/wp-content/uploads/2025/04/104.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/105-1024x768.jpg",
+      "path": "public/wp-content/uploads/2025/04/105-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/105-1024x768.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/105-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/105-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/105-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/105-1536x1152.jpg",
+      "path": "public/wp-content/uploads/2025/04/105-1536x1152.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/105-300x225.jpg",
+      "path": "public/wp-content/uploads/2025/04/105-300x225.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/105-768x576.jpg",
+      "path": "public/wp-content/uploads/2025/04/105-768x576.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/105.jpg",
+      "path": "public/wp-content/uploads/2025/04/105.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/106-1152x1536.jpg",
+      "path": "public/wp-content/uploads/2025/04/106-1152x1536.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/106-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/106-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/106-225x300.jpg",
+      "path": "public/wp-content/uploads/2025/04/106-225x300.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/106-768x1024.jpg",
+      "path": "public/wp-content/uploads/2025/04/106-768x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/106-768x1024.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/106-768x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/106.jpg",
+      "path": "public/wp-content/uploads/2025/04/106.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/107-1152x1536.jpg",
+      "path": "public/wp-content/uploads/2025/04/107-1152x1536.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/107-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/107-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/107-225x300.jpg",
+      "path": "public/wp-content/uploads/2025/04/107-225x300.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/107-768x1024.jpg",
+      "path": "public/wp-content/uploads/2025/04/107-768x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/107-768x1024.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/107-768x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/107.jpg",
+      "path": "public/wp-content/uploads/2025/04/107.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/108-1024x768.jpg",
+      "path": "public/wp-content/uploads/2025/04/108-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/108-1024x768.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/108-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/108-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/108-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/108-1536x1152.jpg",
+      "path": "public/wp-content/uploads/2025/04/108-1536x1152.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/108-2048x1536.jpg",
+      "path": "public/wp-content/uploads/2025/04/108-2048x1536.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/108-300x225.jpg",
+      "path": "public/wp-content/uploads/2025/04/108-300x225.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/108-768x576.jpg",
+      "path": "public/wp-content/uploads/2025/04/108-768x576.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/108.jpg",
+      "path": "public/wp-content/uploads/2025/04/108.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/11-1024x679.jpg",
+      "path": "public/wp-content/uploads/2025/04/11-1024x679.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/11-1024x679.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/11-1024x679.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/11-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/11-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/11-300x199.jpg",
+      "path": "public/wp-content/uploads/2025/04/11-300x199.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/11-768x510.jpg",
+      "path": "public/wp-content/uploads/2025/04/11-768x510.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/11.jpg",
+      "path": "public/wp-content/uploads/2025/04/11.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/12-1024x768.jpg",
+      "path": "public/wp-content/uploads/2025/04/12-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/12-1024x768.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/12-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/12-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/12-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/12-1536x1152.jpg",
+      "path": "public/wp-content/uploads/2025/04/12-1536x1152.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/12-300x225.jpg",
+      "path": "public/wp-content/uploads/2025/04/12-300x225.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/12-768x576.jpg",
+      "path": "public/wp-content/uploads/2025/04/12-768x576.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/12.jpg",
+      "path": "public/wp-content/uploads/2025/04/12.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/13-1303x1536.jpg",
+      "path": "public/wp-content/uploads/2025/04/13-1303x1536.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/13-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/13-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/13-254x300.jpg",
+      "path": "public/wp-content/uploads/2025/04/13-254x300.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/13-768x906.jpg",
+      "path": "public/wp-content/uploads/2025/04/13-768x906.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/13-868x1024.jpg",
+      "path": "public/wp-content/uploads/2025/04/13-868x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/13-868x1024.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/13-868x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/13.jpg",
+      "path": "public/wp-content/uploads/2025/04/13.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/14-1152x1536.jpg",
+      "path": "public/wp-content/uploads/2025/04/14-1152x1536.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/14-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/14-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/14-225x300.jpg",
+      "path": "public/wp-content/uploads/2025/04/14-225x300.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/14-768x1024.jpg",
+      "path": "public/wp-content/uploads/2025/04/14-768x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/14-768x1024.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/14-768x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/14.jpg",
+      "path": "public/wp-content/uploads/2025/04/14.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/15-1152x1536.jpg",
+      "path": "public/wp-content/uploads/2025/04/15-1152x1536.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/15-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/15-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/15-225x300.jpg",
+      "path": "public/wp-content/uploads/2025/04/15-225x300.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/15-768x1024.jpg",
+      "path": "public/wp-content/uploads/2025/04/15-768x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/15-768x1024.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/15-768x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/15.jpg",
+      "path": "public/wp-content/uploads/2025/04/15.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/16-1024x768.jpg",
+      "path": "public/wp-content/uploads/2025/04/16-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/16-1024x768.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/16-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/16-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/16-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/16-1536x1152.jpg",
+      "path": "public/wp-content/uploads/2025/04/16-1536x1152.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/16-300x225.jpg",
+      "path": "public/wp-content/uploads/2025/04/16-300x225.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/16-768x576.jpg",
+      "path": "public/wp-content/uploads/2025/04/16-768x576.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/16.jpg",
+      "path": "public/wp-content/uploads/2025/04/16.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/17-1024x769.jpg",
+      "path": "public/wp-content/uploads/2025/04/17-1024x769.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/17-1024x769.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/17-1024x769.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/17-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/17-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/17-1536x1153.jpg",
+      "path": "public/wp-content/uploads/2025/04/17-1536x1153.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/17-300x225.jpg",
+      "path": "public/wp-content/uploads/2025/04/17-300x225.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/17-768x576.jpg",
+      "path": "public/wp-content/uploads/2025/04/17-768x576.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/17.jpg",
+      "path": "public/wp-content/uploads/2025/04/17.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/18-1024x768.jpg",
+      "path": "public/wp-content/uploads/2025/04/18-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/18-1024x768.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/18-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/18-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/18-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/18-1536x1152.jpg",
+      "path": "public/wp-content/uploads/2025/04/18-1536x1152.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/18-300x225.jpg",
+      "path": "public/wp-content/uploads/2025/04/18-300x225.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/18-768x576.jpg",
+      "path": "public/wp-content/uploads/2025/04/18-768x576.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/18.jpg",
+      "path": "public/wp-content/uploads/2025/04/18.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/19-1153x1536.jpg",
+      "path": "public/wp-content/uploads/2025/04/19-1153x1536.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/19-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/19-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/19-225x300.jpg",
+      "path": "public/wp-content/uploads/2025/04/19-225x300.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/19-768x1023.jpg",
+      "path": "public/wp-content/uploads/2025/04/19-768x1023.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/19-769x1024.jpg",
+      "path": "public/wp-content/uploads/2025/04/19-769x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/19-769x1024.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/19-769x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/19.jpg",
+      "path": "public/wp-content/uploads/2025/04/19.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/2-1-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/2-1-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/2-1-225x300.jpg",
+      "path": "public/wp-content/uploads/2025/04/2-1-225x300.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/2-1.jpg",
+      "path": "public/wp-content/uploads/2025/04/2-1.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/2-1.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/2-1.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/2-1152x1536.jpg",
+      "path": "public/wp-content/uploads/2025/04/2-1152x1536.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/2-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/2-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/2-1536x2048.jpg",
+      "path": "public/wp-content/uploads/2025/04/2-1536x2048.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/2-225x300.jpg",
+      "path": "public/wp-content/uploads/2025/04/2-225x300.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/2-768x1024.jpg",
+      "path": "public/wp-content/uploads/2025/04/2-768x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/2-768x1024.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/2-768x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/2.jpg",
+      "path": "public/wp-content/uploads/2025/04/2.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/20-1153x1536.jpg",
+      "path": "public/wp-content/uploads/2025/04/20-1153x1536.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/20-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/20-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/20-225x300.jpg",
+      "path": "public/wp-content/uploads/2025/04/20-225x300.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/20-768x1023.jpg",
+      "path": "public/wp-content/uploads/2025/04/20-768x1023.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/20-769x1024.jpg",
+      "path": "public/wp-content/uploads/2025/04/20-769x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/20-769x1024.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/20-769x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/20.jpg",
+      "path": "public/wp-content/uploads/2025/04/20.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/200-1024x769.jpg",
+      "path": "public/wp-content/uploads/2025/04/200-1024x769.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/200-1024x769.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/200-1024x769.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/200-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/200-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/200-1536x1153.jpg",
+      "path": "public/wp-content/uploads/2025/04/200-1536x1153.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/200-300x225.jpg",
+      "path": "public/wp-content/uploads/2025/04/200-300x225.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/200-768x576.jpg",
+      "path": "public/wp-content/uploads/2025/04/200-768x576.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/200.jpg",
+      "path": "public/wp-content/uploads/2025/04/200.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/201-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/201-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/201-300x300.jpg",
+      "path": "public/wp-content/uploads/2025/04/201-300x300.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/201.jpg",
+      "path": "public/wp-content/uploads/2025/04/201.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/201.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/201.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/202-1024x769.jpg",
+      "path": "public/wp-content/uploads/2025/04/202-1024x769.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/202-1024x769.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/202-1024x769.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/202-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/202-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/202-1536x1153.jpg",
+      "path": "public/wp-content/uploads/2025/04/202-1536x1153.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/202-300x225.jpg",
+      "path": "public/wp-content/uploads/2025/04/202-300x225.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/202-768x576.jpg",
+      "path": "public/wp-content/uploads/2025/04/202-768x576.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/202.jpg",
+      "path": "public/wp-content/uploads/2025/04/202.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/203-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/203-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/203-165x300.jpg",
+      "path": "public/wp-content/uploads/2025/04/203-165x300.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/203.jpg",
+      "path": "public/wp-content/uploads/2025/04/203.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/203.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/203.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/21-1152x1536.jpg",
+      "path": "public/wp-content/uploads/2025/04/21-1152x1536.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/21-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/21-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/21-225x300.jpg",
+      "path": "public/wp-content/uploads/2025/04/21-225x300.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/21-768x1024.jpg",
+      "path": "public/wp-content/uploads/2025/04/21-768x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/21-768x1024.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/21-768x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/21.jpg",
+      "path": "public/wp-content/uploads/2025/04/21.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/22-1152x1536.jpg",
+      "path": "public/wp-content/uploads/2025/04/22-1152x1536.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/22-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/22-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/22-225x300.jpg",
+      "path": "public/wp-content/uploads/2025/04/22-225x300.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/22-768x1024.jpg",
+      "path": "public/wp-content/uploads/2025/04/22-768x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/22.jpg",
+      "path": "public/wp-content/uploads/2025/04/22.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/23-1024x982.jpg",
+      "path": "public/wp-content/uploads/2025/04/23-1024x982.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/23-1024x982.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/23-1024x982.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/23-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/23-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/23-300x288.jpg",
+      "path": "public/wp-content/uploads/2025/04/23-300x288.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/23-768x737.jpg",
+      "path": "public/wp-content/uploads/2025/04/23-768x737.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/23.jpg",
+      "path": "public/wp-content/uploads/2025/04/23.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/24-1026x2048.jpg",
+      "path": "public/wp-content/uploads/2025/04/24-1026x2048.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/24-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/24-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/24-150x300.jpg",
+      "path": "public/wp-content/uploads/2025/04/24-150x300.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/24-513x1024.jpg",
+      "path": "public/wp-content/uploads/2025/04/24-513x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/24-513x1024.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/24-513x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/24-768x1532.jpg",
+      "path": "public/wp-content/uploads/2025/04/24-768x1532.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/24-770x1536.jpg",
+      "path": "public/wp-content/uploads/2025/04/24-770x1536.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/24.jpg",
+      "path": "public/wp-content/uploads/2025/04/24.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/3-1-1024x768.jpg",
+      "path": "public/wp-content/uploads/2025/04/3-1-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/3-1-1024x768.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/3-1-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/3-1-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/3-1-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/3-1-1536x1152.jpg",
+      "path": "public/wp-content/uploads/2025/04/3-1-1536x1152.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/3-1-300x225.jpg",
+      "path": "public/wp-content/uploads/2025/04/3-1-300x225.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/3-1-768x576.jpg",
+      "path": "public/wp-content/uploads/2025/04/3-1-768x576.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/3-1.jpg",
+      "path": "public/wp-content/uploads/2025/04/3-1.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/3-1152x1536.jpg",
+      "path": "public/wp-content/uploads/2025/04/3-1152x1536.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/3-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/3-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/3-1536x2048.jpg",
+      "path": "public/wp-content/uploads/2025/04/3-1536x2048.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/3-225x300.jpg",
+      "path": "public/wp-content/uploads/2025/04/3-225x300.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/3-768x1024.jpg",
+      "path": "public/wp-content/uploads/2025/04/3-768x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/3-768x1024.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/3-768x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/3.jpg",
+      "path": "public/wp-content/uploads/2025/04/3.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/300-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/300-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/300-300x225.jpg",
+      "path": "public/wp-content/uploads/2025/04/300-300x225.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/300-768x576.jpg",
+      "path": "public/wp-content/uploads/2025/04/300-768x576.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/300.jpg",
+      "path": "public/wp-content/uploads/2025/04/300.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/300.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/300.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/301-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/301-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/301-300x225.jpg",
+      "path": "public/wp-content/uploads/2025/04/301-300x225.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/301-768x576.jpg",
+      "path": "public/wp-content/uploads/2025/04/301-768x576.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/301.jpg",
+      "path": "public/wp-content/uploads/2025/04/301.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/301.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/301.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/302-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/302-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/302-300x132.jpg",
+      "path": "public/wp-content/uploads/2025/04/302-300x132.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/302-768x339.jpg",
+      "path": "public/wp-content/uploads/2025/04/302-768x339.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/302.jpg",
+      "path": "public/wp-content/uploads/2025/04/302.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/302.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/302.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/4-1024x768.jpg",
+      "path": "public/wp-content/uploads/2025/04/4-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/4-1024x768.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/4-1024x768.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/4-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/4-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/4-1536x1152.jpg",
+      "path": "public/wp-content/uploads/2025/04/4-1536x1152.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/4-300x225.jpg",
+      "path": "public/wp-content/uploads/2025/04/4-300x225.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/4-768x576.jpg",
+      "path": "public/wp-content/uploads/2025/04/4-768x576.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/4.jpg",
+      "path": "public/wp-content/uploads/2025/04/4.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/5-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/5-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/5-300x217.jpg",
+      "path": "public/wp-content/uploads/2025/04/5-300x217.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/5.jpg",
+      "path": "public/wp-content/uploads/2025/04/5.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/5.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/5.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/6-1024x613.jpg",
+      "path": "public/wp-content/uploads/2025/04/6-1024x613.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/6-1024x613.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/6-1024x613.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/6-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/6-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/6-1536x920.jpg",
+      "path": "public/wp-content/uploads/2025/04/6-1536x920.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/6-2048x1226.jpg",
+      "path": "public/wp-content/uploads/2025/04/6-2048x1226.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/6-300x180.jpg",
+      "path": "public/wp-content/uploads/2025/04/6-300x180.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/6-768x460.jpg",
+      "path": "public/wp-content/uploads/2025/04/6-768x460.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/6.jpg",
+      "path": "public/wp-content/uploads/2025/04/6.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/7-1152x1536.jpg",
+      "path": "public/wp-content/uploads/2025/04/7-1152x1536.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/7-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/7-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/7-1536x2048.jpg",
+      "path": "public/wp-content/uploads/2025/04/7-1536x2048.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/7-225x300.jpg",
+      "path": "public/wp-content/uploads/2025/04/7-225x300.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/7-768x1024.jpg",
+      "path": "public/wp-content/uploads/2025/04/7-768x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/7-768x1024.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/7-768x1024.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/7.jpg",
+      "path": "public/wp-content/uploads/2025/04/7.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/8-1024x968.jpg",
+      "path": "public/wp-content/uploads/2025/04/8-1024x968.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/8-1024x968.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/8-1024x968.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/8-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/8-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/8-1536x1451.jpg",
+      "path": "public/wp-content/uploads/2025/04/8-1536x1451.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/8-2048x1935.jpg",
+      "path": "public/wp-content/uploads/2025/04/8-2048x1935.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/8-300x283.jpg",
+      "path": "public/wp-content/uploads/2025/04/8-300x283.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/8-768x726.jpg",
+      "path": "public/wp-content/uploads/2025/04/8-768x726.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/8.jpg",
+      "path": "public/wp-content/uploads/2025/04/8.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/9-150x150.jpg",
+      "path": "public/wp-content/uploads/2025/04/9-150x150.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/9-231x300.jpg",
+      "path": "public/wp-content/uploads/2025/04/9-231x300.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/9.jpg",
+      "path": "public/wp-content/uploads/2025/04/9.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/9.jpg?x43145",
+      "path": "public/wp-content/uploads/2025/04/9.jpg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/LOGO-150x112.png",
+      "path": "public/wp-content/uploads/2025/04/LOGO-150x112.png"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/LOGO.png",
+      "path": "public/wp-content/uploads/2025/04/LOGO.png"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/LOGO.png?x43145",
+      "path": "public/wp-content/uploads/2025/04/LOGO.png"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/cropped-LOGO-150x150.png",
+      "path": "public/wp-content/uploads/2025/04/cropped-LOGO-150x150.png"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/cropped-LOGO-300x300.png",
+      "path": "public/wp-content/uploads/2025/04/cropped-LOGO-300x300.png"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/cropped-LOGO.png",
+      "path": "public/wp-content/uploads/2025/04/cropped-LOGO.png"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/cropped-cropped-LOGO-150x150.png",
+      "path": "public/wp-content/uploads/2025/04/cropped-cropped-LOGO-150x150.png"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/cropped-cropped-LOGO-180x180.png",
+      "path": "public/wp-content/uploads/2025/04/cropped-cropped-LOGO-180x180.png"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/cropped-cropped-LOGO-180x180.png?x43145",
+      "path": "public/wp-content/uploads/2025/04/cropped-cropped-LOGO-180x180.png"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/cropped-cropped-LOGO-192x192.png",
+      "path": "public/wp-content/uploads/2025/04/cropped-cropped-LOGO-192x192.png"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/cropped-cropped-LOGO-192x192.png?x43145",
+      "path": "public/wp-content/uploads/2025/04/cropped-cropped-LOGO-192x192.png"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/cropped-cropped-LOGO-270x270.png",
+      "path": "public/wp-content/uploads/2025/04/cropped-cropped-LOGO-270x270.png"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/cropped-cropped-LOGO-300x300.png",
+      "path": "public/wp-content/uploads/2025/04/cropped-cropped-LOGO-300x300.png"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/cropped-cropped-LOGO-32x32.png",
+      "path": "public/wp-content/uploads/2025/04/cropped-cropped-LOGO-32x32.png"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/cropped-cropped-LOGO-32x32.png?x43145",
+      "path": "public/wp-content/uploads/2025/04/cropped-cropped-LOGO-32x32.png"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/cropped-cropped-LOGO.png",
+      "path": "public/wp-content/uploads/2025/04/cropped-cropped-LOGO.png"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/heatcool-dotacie-150x150.gif",
+      "path": "public/wp-content/uploads/2025/04/heatcool-dotacie-150x150.gif"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/heatcool-dotacie-300x66.gif",
+      "path": "public/wp-content/uploads/2025/04/heatcool-dotacie-300x66.gif"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/heatcool-dotacie-768x169.gif",
+      "path": "public/wp-content/uploads/2025/04/heatcool-dotacie-768x169.gif"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/heatcool-dotacie.gif",
+      "path": "public/wp-content/uploads/2025/04/heatcool-dotacie.gif"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/heatcool-dotacie.gif?x43145",
+      "path": "public/wp-content/uploads/2025/04/heatcool-dotacie.gif"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/image-10.svg",
+      "path": "public/wp-content/uploads/2025/04/image-10.svg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/image-11.svg",
+      "path": "public/wp-content/uploads/2025/04/image-11.svg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/image-12.svg",
+      "path": "public/wp-content/uploads/2025/04/image-12.svg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/image-13.svg",
+      "path": "public/wp-content/uploads/2025/04/image-13.svg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-content/uploads/2025/04/image-9.svg",
+      "path": "public/wp-content/uploads/2025/04/image-9.svg"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-includes/blocks/paragraph/style.min.css",
+      "path": "public/wp-includes/blocks/paragraph/style.min.css"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-includes/js/comment-reply.min.js?x43145&ver=6.9.4",
+      "path": "public/wp-includes/js/comment-reply.min.js"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-includes/js/wp-emoji-loader.min.js",
+      "path": "public/wp-includes/js/wp-emoji-loader.min.js"
+    },
+    {
+      "url": "https://www.heatcooltech2.sk/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4",
+      "path": "public/wp-includes/js/wp-emoji-release.min.js"
+    }
+  ]
+}

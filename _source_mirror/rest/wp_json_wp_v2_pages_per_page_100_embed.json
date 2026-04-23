@@ -1,0 +1,982 @@
+[
+  {
+    "id": 78,
+    "date": "2025-04-05T18:50:30",
+    "date_gmt": "2025-04-05T16:50:30",
+    "guid": {
+      "rendered": "https://www.heatcooltech2.sk/?page_id=78"
+    },
+    "modified": "2025-04-05T18:52:51",
+    "modified_gmt": "2025-04-05T16:52:51",
+    "slug": "partneri",
+    "status": "publish",
+    "type": "page",
+    "link": "https://www.heatcooltech2.sk/partneri/",
+    "title": {
+      "rendered": "Partneri"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "om_disable_all_campaigns": false,
+      "_monsterinsights_skip_tracking": false,
+      "_monsterinsights_sitenote_active": false,
+      "_monsterinsights_sitenote_note": "",
+      "_monsterinsights_sitenote_category": 0,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-78",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "aioseo_notices": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages/78",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/comments?post=78"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 2,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages/78/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 94,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages/78/revisions/94"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/media?parent=78"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 1,
+          "name": "admin",
+          "url": "https://www.heatcooltech2.sk",
+          "description": "",
+          "link": "https://www.heatcooltech2.sk/author/admin/",
+          "slug": "admin",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/c03c9c909519689ed72956034c72c2d3d8d90fd86dcf2661460713d08d498147?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/c03c9c909519689ed72956034c72c2d3d8d90fd86dcf2661460713d08d498147?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/c03c9c909519689ed72956034c72c2d3d8d90fd86dcf2661460713d08d498147?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/users/1",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 77,
+    "date": "2025-04-05T18:50:28",
+    "date_gmt": "2025-04-05T16:50:28",
+    "guid": {
+      "rendered": "https://www.heatcooltech2.sk/?page_id=77"
+    },
+    "modified": "2025-04-05T18:53:18",
+    "modified_gmt": "2025-04-05T16:53:18",
+    "slug": "dotacie",
+    "status": "publish",
+    "type": "page",
+    "link": "https://www.heatcooltech2.sk/dotacie/",
+    "title": {
+      "rendered": "Dotácie"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "om_disable_all_campaigns": false,
+      "_monsterinsights_skip_tracking": false,
+      "_monsterinsights_sitenote_active": false,
+      "_monsterinsights_sitenote_note": "",
+      "_monsterinsights_sitenote_category": 0,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-77",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "aioseo_notices": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages/77",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/comments?post=77"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 2,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages/77/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 96,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages/77/revisions/96"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/media?parent=77"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 1,
+          "name": "admin",
+          "url": "https://www.heatcooltech2.sk",
+          "description": "",
+          "link": "https://www.heatcooltech2.sk/author/admin/",
+          "slug": "admin",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/c03c9c909519689ed72956034c72c2d3d8d90fd86dcf2661460713d08d498147?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/c03c9c909519689ed72956034c72c2d3d8d90fd86dcf2661460713d08d498147?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/c03c9c909519689ed72956034c72c2d3d8d90fd86dcf2661460713d08d498147?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/users/1",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 76,
+    "date": "2025-04-05T18:50:26",
+    "date_gmt": "2025-04-05T16:50:26",
+    "guid": {
+      "rendered": "https://www.heatcooltech2.sk/?page_id=76"
+    },
+    "modified": "2025-04-05T18:58:47",
+    "modified_gmt": "2025-04-05T16:58:47",
+    "slug": "kurenarske-prace-a-vymena-radiatorov",
+    "status": "publish",
+    "type": "page",
+    "link": "https://www.heatcooltech2.sk/kurenarske-prace-a-vymena-radiatorov/",
+    "title": {
+      "rendered": "Kurenárske práce a výmena radiátorov"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "om_disable_all_campaigns": false,
+      "_monsterinsights_skip_tracking": false,
+      "_monsterinsights_sitenote_active": false,
+      "_monsterinsights_sitenote_note": "",
+      "_monsterinsights_sitenote_category": 0,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-76",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "aioseo_notices": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages/76",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/comments?post=76"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 2,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages/76/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 101,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages/76/revisions/101"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/media?parent=76"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 1,
+          "name": "admin",
+          "url": "https://www.heatcooltech2.sk",
+          "description": "",
+          "link": "https://www.heatcooltech2.sk/author/admin/",
+          "slug": "admin",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/c03c9c909519689ed72956034c72c2d3d8d90fd86dcf2661460713d08d498147?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/c03c9c909519689ed72956034c72c2d3d8d90fd86dcf2661460713d08d498147?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/c03c9c909519689ed72956034c72c2d3d8d90fd86dcf2661460713d08d498147?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/users/1",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 75,
+    "date": "2025-04-05T18:50:24",
+    "date_gmt": "2025-04-05T16:50:24",
+    "guid": {
+      "rendered": "https://www.heatcooltech2.sk/?page_id=75"
+    },
+    "modified": "2025-04-05T18:57:30",
+    "modified_gmt": "2025-04-05T16:57:30",
+    "slug": "podlahove-vykurovanie",
+    "status": "publish",
+    "type": "page",
+    "link": "https://www.heatcooltech2.sk/podlahove-vykurovanie/",
+    "title": {
+      "rendered": "Podlahové vykurovanie"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "om_disable_all_campaigns": false,
+      "_monsterinsights_skip_tracking": false,
+      "_monsterinsights_sitenote_active": false,
+      "_monsterinsights_sitenote_note": "",
+      "_monsterinsights_sitenote_category": 0,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-75",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "aioseo_notices": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages/75",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/comments?post=75"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 2,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages/75/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 100,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages/75/revisions/100"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/media?parent=75"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 1,
+          "name": "admin",
+          "url": "https://www.heatcooltech2.sk",
+          "description": "",
+          "link": "https://www.heatcooltech2.sk/author/admin/",
+          "slug": "admin",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/c03c9c909519689ed72956034c72c2d3d8d90fd86dcf2661460713d08d498147?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/c03c9c909519689ed72956034c72c2d3d8d90fd86dcf2661460713d08d498147?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/c03c9c909519689ed72956034c72c2d3d8d90fd86dcf2661460713d08d498147?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/users/1",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 74,
+    "date": "2025-04-05T18:50:22",
+    "date_gmt": "2025-04-05T16:50:22",
+    "guid": {
+      "rendered": "https://www.heatcooltech2.sk/?page_id=74"
+    },
+    "modified": "2025-04-05T19:05:17",
+    "modified_gmt": "2025-04-05T17:05:17",
+    "slug": "tepelne-cerpadla",
+    "status": "publish",
+    "type": "page",
+    "link": "https://www.heatcooltech2.sk/tepelne-cerpadla/",
+    "title": {
+      "rendered": "Tepelné čerpadlá"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "om_disable_all_campaigns": false,
+      "_monsterinsights_skip_tracking": false,
+      "_monsterinsights_sitenote_active": false,
+      "_monsterinsights_sitenote_note": "",
+      "_monsterinsights_sitenote_category": 0,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-74",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "aioseo_notices": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages/74",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/comments?post=74"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 4,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages/74/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 106,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages/74/revisions/106"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/media?parent=74"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 1,
+          "name": "admin",
+          "url": "https://www.heatcooltech2.sk",
+          "description": "",
+          "link": "https://www.heatcooltech2.sk/author/admin/",
+          "slug": "admin",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/c03c9c909519689ed72956034c72c2d3d8d90fd86dcf2661460713d08d498147?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/c03c9c909519689ed72956034c72c2d3d8d90fd86dcf2661460713d08d498147?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/c03c9c909519689ed72956034c72c2d3d8d90fd86dcf2661460713d08d498147?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/users/1",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 73,
+    "date": "2025-04-05T18:50:20",
+    "date_gmt": "2025-04-05T16:50:20",
+    "guid": {
+      "rendered": "https://www.heatcooltech2.sk/?page_id=73"
+    },
+    "modified": "2025-04-05T18:55:40",
+    "modified_gmt": "2025-04-05T16:55:40",
+    "slug": "klimatizacie",
+    "status": "publish",
+    "type": "page",
+    "link": "https://www.heatcooltech2.sk/klimatizacie/",
+    "title": {
+      "rendered": "Klimatizácie"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "om_disable_all_campaigns": false,
+      "_monsterinsights_skip_tracking": false,
+      "_monsterinsights_sitenote_active": false,
+      "_monsterinsights_sitenote_note": "",
+      "_monsterinsights_sitenote_category": 0,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-73",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "aioseo_notices": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages/73",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/comments?post=73"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 2,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages/73/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 99,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages/73/revisions/99"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/media?parent=73"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 1,
+          "name": "admin",
+          "url": "https://www.heatcooltech2.sk",
+          "description": "",
+          "link": "https://www.heatcooltech2.sk/author/admin/",
+          "slug": "admin",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/c03c9c909519689ed72956034c72c2d3d8d90fd86dcf2661460713d08d498147?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/c03c9c909519689ed72956034c72c2d3d8d90fd86dcf2661460713d08d498147?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/c03c9c909519689ed72956034c72c2d3d8d90fd86dcf2661460713d08d498147?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/users/1",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 61,
+    "date": "2025-04-05T18:43:41",
+    "date_gmt": "2025-04-05T16:43:41",
+    "guid": {
+      "rendered": "https://www.heatcooltech2.sk/?page_id=61"
+    },
+    "modified": "2025-04-09T01:15:21",
+    "modified_gmt": "2025-04-08T23:15:21",
+    "slug": "domov",
+    "status": "publish",
+    "type": "page",
+    "link": "https://www.heatcooltech2.sk/",
+    "title": {
+      "rendered": "Heatcooltech s.r.o. &#8211; montáž, klimatizácie, tepelné čerpadlá"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "om_disable_all_campaigns": false,
+      "_monsterinsights_skip_tracking": false,
+      "_monsterinsights_sitenote_active": false,
+      "_monsterinsights_sitenote_note": "",
+      "_monsterinsights_sitenote_category": 0,
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-61",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "aioseo_notices": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages/61",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/comments?post=61"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 5,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages/61/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 107,
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/pages/61/revisions/107"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/media?parent=61"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    },
+    "_embedded": {
+      "author": [
+        {
+          "id": 1,
+          "name": "admin",
+          "url": "https://www.heatcooltech2.sk",
+          "description": "",
+          "link": "https://www.heatcooltech2.sk/author/admin/",
+          "slug": "admin",
+          "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/c03c9c909519689ed72956034c72c2d3d8d90fd86dcf2661460713d08d498147?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/c03c9c909519689ed72956034c72c2d3d8d90fd86dcf2661460713d08d498147?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/c03c9c909519689ed72956034c72c2d3d8d90fd86dcf2661460713d08d498147?s=96&d=mm&r=g"
+          },
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/users/1",
+                "targetHints": {
+                  "allow": [
+                    "GET"
+                  ]
+                }
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/users"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

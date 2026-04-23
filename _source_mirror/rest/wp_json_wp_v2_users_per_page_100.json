@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "name": "admin",
+    "url": "https://www.heatcooltech2.sk",
+    "description": "",
+    "link": "https://www.heatcooltech2.sk/author/admin/",
+    "slug": "admin",
+    "avatar_urls": {
+      "24": "https://secure.gravatar.com/avatar/c03c9c909519689ed72956034c72c2d3d8d90fd86dcf2661460713d08d498147?s=24&d=mm&r=g",
+      "48": "https://secure.gravatar.com/avatar/c03c9c909519689ed72956034c72c2d3d8d90fd86dcf2661460713d08d498147?s=48&d=mm&r=g",
+      "96": "https://secure.gravatar.com/avatar/c03c9c909519689ed72956034c72c2d3d8d90fd86dcf2661460713d08d498147?s=96&d=mm&r=g"
+    },
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/users/1",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/users"
+        }
+      ]
+    }
+  }
+]

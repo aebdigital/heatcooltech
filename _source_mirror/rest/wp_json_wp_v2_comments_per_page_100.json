@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "post": 1,
+    "parent": 0,
+    "author": 0,
+    "author_name": "WordPress komentátor",
+    "author_url": "https://sk.wordpress.org/",
+    "date": "2025-04-05T18:30:04",
+    "date_gmt": "2025-04-05T16:30:04",
+    "content": {
+      "rendered": "<p>Ahoj, toto je komentár.<br />\nPre správu, úpravu alebo mazanie komentárov si pozrite sekciu Komentáre na nástenke.<br />\nProfilové obrázky komentujúcich sprostredkúva služba <a href=\"https://sk.gravatar.com/\">Gravatar</a>.</p>\n"
+    },
+    "link": "https://www.heatcooltech2.sk/ahoj-svet/#comment-1",
+    "status": "approved",
+    "type": "comment",
+    "author_avatar_urls": {
+      "24": "https://secure.gravatar.com/avatar/8e1606e6fba450a9362af43874c1b2dfad34c782e33d0a51e1b46c18a2a567dd?s=24&d=mm&r=g",
+      "48": "https://secure.gravatar.com/avatar/8e1606e6fba450a9362af43874c1b2dfad34c782e33d0a51e1b46c18a2a567dd?s=48&d=mm&r=g",
+      "96": "https://secure.gravatar.com/avatar/8e1606e6fba450a9362af43874c1b2dfad34c782e33d0a51e1b46c18a2a567dd?s=96&d=mm&r=g"
+    },
+    "meta": {
+      "_wp_note_status": null
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/comments/1",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/comments"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "post_type": "post",
+          "href": "https://www.heatcooltech2.sk/wp-json/wp/v2/posts/1"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "error": {
+    "code": "my_templates_access_disabled",
+    "message": "Stránka, od ktorej požadujete šablóny, má zakázaný prístup k svojim šablónam."
+  }
+}
