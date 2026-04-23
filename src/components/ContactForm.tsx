@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { RollingButton } from "./RollingButton";
+import Link from "next/link";
 
 type FormState = {
   name: string;
@@ -100,7 +101,13 @@ export function ContactForm() {
           onChange={(event) => setForm((current) => ({ ...current, consent: event.target.checked }))}
           required
         />
-        <span>Odoslaním formulára Súhlasíte so spracovaním osobných údajov za účelom spracovania objednávky.</span>
+        <span>
+          Odoslaním formulára Súhlasíte so{" "}
+          <Link href="/ochrana-osobnych-udajov/" className="underline decoration-white/50 underline-offset-4 hover:decoration-white">
+            spracovaním osobných údajov
+          </Link>{" "}
+          za účelom spracovania objednávky.
+        </span>
       </label>
 
       <div className="flex flex-col items-start gap-4">

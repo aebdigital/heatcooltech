@@ -31,6 +31,9 @@ export function FooterCredits() {
     <div className="mt-14 flex flex-col gap-3 border-t border-neutral-200 pt-6 text-[15px] text-[#444] md:flex-row md:items-center md:justify-between">
       <p>Copyright © {site.copyrightYear} Heatcooltech s.r.o., všetky práva vyhradené</p>
       <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
+        <Link href="/ochrana-osobnych-udajov/" className="underline underline-offset-4 transition hover:text-[#f0425c]">
+          Ochrana osobných údajov
+        </Link>
         <CookieSettingsButton className="underline underline-offset-4 transition hover:text-[#f0425c]">
           Cookies
         </CookieSettingsButton>
