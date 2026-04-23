@@ -11,6 +11,7 @@ export type ContentPage = {
   paragraphs: string[];
   listItems?: string[];
   gallery?: GalleryImage[];
+  heroImage?: string;
   partnerHeading?: string;
   dotacieImage?: GalleryImage;
 };
@@ -124,8 +125,9 @@ export const serviceCards = [
 ];
 
 const heatPumpGallery = [
-  "1-1-654x1024.jpg",
-  "2-1.jpg",
+  "21.jpg",
+  "20-769x1024.jpg",
+  "22.jpg",
   "3-1-1024x768.jpg",
   "4-1024x768.jpg",
   "5.jpg",
@@ -226,6 +228,7 @@ export const pages: ContentPage[] = [
     title: "Partneri",
     description: "Heatcooltech úzko spolupracuje s partnerom IVT pri dodávkach a montáži tepelných čerpadiel.",
     partnerHeading: "Úzko spolupracujeme s IVT",
+    heroImage: upload("104-1024x768.jpg"),
     paragraphs: [],
   },
   {
@@ -234,6 +237,7 @@ export const pages: ContentPage[] = [
     description:
       "Pomoc s vybavením dotácie Zelená domácnostiam na tepelné čerpadlá a obnoviteľné zdroje energie od spoločnosti Heatcooltech.",
     dotacieImage: { src: upload("heatcool-dotacie.gif"), alt: "Zelená domácnostiam" },
+    heroImage: upload("108-1024x768.jpg"),
     paragraphs: [
       "Nie sú Vám ľahostajné účty za energie? Chcete využívať obnoviteľné zdroje energie alebo uvažujete o kúpe tepelného čerpadla? Aké opatrenia podniknúť a ako si vybrať najvhodnejšie čo najefektívnejšie zariadenie?",
       "Získajte s nami finančný príspevok na obnoviteľné zdroje energií až do výšky 4 370 € v rámci dotačného programu „Zelená domácnostiam“ a ušetrite si energiu, čas a aj peniaze. Spoločnosť Heatcooltech s.r.o. Vám pomôže pohodlne získať túto dotáciu.",

@@ -22,8 +22,8 @@ export function ContentPage({ page }: Props) {
   // Get all service links for the sidebar
   const serviceLinks = navItems.find(item => item.label === "Služby")?.children || [];
   
-  // Use the first image of the gallery as hero background, or a fallback
-  const heroImage = page.gallery?.[0]?.src || site.socialImage;
+  // Use custom heroImage, first gallery image, or fallback socialImage
+  const heroImage = page.heroImage || page.gallery?.[0]?.src || site.socialImage;
 
   const schema = {
     "@context": "https://schema.org",
