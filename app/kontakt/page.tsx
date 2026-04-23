@@ -14,8 +14,8 @@ export default function KontaktPage() {
     <>
       <Header overlay />
       <main className="bg-white">
-        {/* Hero Section */}
-        <section className="relative h-[60vh] min-h-[500px] w-full overflow-hidden bg-neutral-900">
+        {/* Hero Section - 35vh */}
+        <section className="relative h-[35vh] min-h-[300px] w-full overflow-hidden bg-neutral-900">
           <Image 
             src={site.socialImage} 
             alt="Kontakt" 
@@ -25,14 +25,9 @@ export default function KontaktPage() {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-neutral-900 via-transparent to-transparent" />
           
-          <div className="absolute inset-0 flex items-end pb-20 px-5 md:px-8 lg:px-14">
-            <div className="mx-auto w-full max-w-[1440px]">
-              <div className="flex flex-wrap items-center gap-3 text-[13px] font-bold uppercase tracking-widest text-white/60 mb-6">
-                <Link href="/" className="transition-colors hover:text-[#f0425c]">Domov</Link>
-                <ChevronRight size={14} />
-                <span className="text-[#f0425c]">Kontakt</span>
-              </div>
-              <h1 className="font-display text-[52px] font-bold uppercase leading-[0.9] text-white md:text-[86px]" data-reveal>
+          <div className="absolute inset-0 flex items-center justify-center px-5 md:px-8 lg:px-14">
+            <div className="mx-auto w-full max-w-[1440px] text-center">
+              <h1 className="font-display text-[48px] font-bold uppercase leading-none text-white md:text-[72px]" data-reveal>
                 Kontaktujte nás
               </h1>
             </div>
@@ -40,8 +35,15 @@ export default function KontaktPage() {
         </section>
 
         {/* Info & Map Section */}
-        <section className="bg-white px-5 py-16 md:px-8 lg:px-14 lg:py-24">
+        <section className="bg-white px-5 py-12 md:px-8 lg:px-14 lg:py-16">
           <div className="mx-auto max-w-[1440px]">
+            {/* Breadcrumbs inside content */}
+            <div className="flex flex-wrap items-center gap-2 text-[12px] font-bold uppercase tracking-widest text-neutral-400 mb-12">
+              <Link href="/" className="transition-colors hover:text-[#f0425c]">Domov</Link>
+              <ChevronRight size={12} />
+              <span className="text-[#f0425c]">Kontakt</span>
+            </div>
+
             <div className="grid gap-16 lg:grid-cols-[minmax(320px,0.8fr)_minmax(0,1.2fr)] lg:items-start lg:gap-24">
               <div className="space-y-4 text-[19px] leading-8 text-[#4b4b4b]" data-reveal>
                 <div className="space-y-1">

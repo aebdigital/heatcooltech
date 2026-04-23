@@ -66,8 +66,8 @@ export function ContentPage({ page }: Props) {
     <>
       <Header overlay />
       
-      {/* Hero Section */}
-      <section className="relative h-[60vh] min-h-[500px] w-full overflow-hidden bg-neutral-900">
+      {/* Hero Section - Updated to 30vh */}
+      <section className="relative h-[35vh] min-h-[300px] w-full overflow-hidden bg-neutral-900">
         <Image 
           src={heroImage} 
           alt={page.title} 
@@ -77,14 +77,9 @@ export function ContentPage({ page }: Props) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-neutral-900 via-transparent to-transparent" />
         
-        <div className="absolute inset-0 flex items-end pb-20 px-5 md:px-8 lg:px-14">
-          <div className="mx-auto w-full max-w-[1440px]">
-            <div className="flex flex-wrap items-center gap-3 text-[13px] font-bold uppercase tracking-widest text-white/60 mb-6">
-              <Link href="/" className="transition-colors hover:text-[#f0425c]">Domov</Link>
-              <ChevronRight size={14} />
-              <span className="text-[#f0425c]">{page.title}</span>
-            </div>
-            <h1 className="font-display text-[52px] font-bold uppercase leading-[0.9] text-white md:text-[86px]" data-reveal>
+        <div className="absolute inset-0 flex items-center justify-center px-5 md:px-8 lg:px-14">
+          <div className="mx-auto w-full max-w-[1440px] text-center">
+            <h1 className="font-display text-[48px] font-bold uppercase leading-none text-white md:text-[72px]" data-reveal>
               {page.partnerHeading || page.title}
             </h1>
           </div>
@@ -92,11 +87,18 @@ export function ContentPage({ page }: Props) {
       </section>
 
       <main className="bg-white">
-        <div className="mx-auto flex w-full max-w-[1440px] flex-col gap-12 px-5 py-16 md:px-8 lg:flex-row lg:px-14 lg:py-24">
+        <div className="mx-auto flex w-full max-w-[1440px] flex-col gap-12 px-5 py-12 md:px-8 lg:flex-row lg:px-14 lg:py-16">
           
           {/* Sidebar */}
           <aside className="shrink-0 lg:w-80">
             <div className="sticky top-32 space-y-8">
+              {/* Breadcrumbs moved here */}
+              <div className="flex flex-wrap items-center gap-2 text-[12px] font-bold uppercase tracking-widest text-neutral-400 mb-6">
+                <Link href="/" className="transition-colors hover:text-[#f0425c]">Domov</Link>
+                <ChevronRight size={12} />
+                <span className="text-[#f0425c]">{page.title}</span>
+              </div>
+
               <div>
                 <p className="font-display text-[12px] font-bold uppercase tracking-widest text-neutral-400">Naše Služby</p>
                 <nav className="mt-4 flex flex-col gap-2">

@@ -23,8 +23,8 @@ export default function RealizaciePage() {
     <>
       <Header overlay />
       <main className="bg-white">
-        {/* Hero Section */}
-        <section className="relative h-[60vh] min-h-[500px] w-full overflow-hidden bg-neutral-900">
+        {/* Hero Section - 35vh */}
+        <section className="relative h-[35vh] min-h-[300px] w-full overflow-hidden bg-neutral-900">
           <Image 
             src={allRealizations[0].src} 
             alt="Realizácie" 
@@ -34,24 +34,27 @@ export default function RealizaciePage() {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-neutral-900 via-transparent to-transparent" />
           
-          <div className="absolute inset-0 flex items-end pb-20 px-5 md:px-8 lg:px-14">
-            <div className="mx-auto w-full max-w-[1440px]">
-              <div className="flex flex-wrap items-center gap-3 text-[13px] font-bold uppercase tracking-widest text-white/60 mb-6">
-                <Link href="/" className="transition-colors hover:text-[#f0425c]">Domov</Link>
-                <ChevronRight size={14} />
-                <span className="text-[#f0425c]">Realizácie</span>
-              </div>
-              <h1 className="font-display text-[52px] font-bold uppercase leading-[0.9] text-white md:text-[86px]" data-reveal>
+          <div className="absolute inset-0 flex items-center justify-center px-5 md:px-8 lg:px-14">
+            <div className="mx-auto w-full max-w-[1440px] text-center">
+              <h1 className="font-display text-[48px] font-bold uppercase leading-none text-white md:text-[72px]" data-reveal>
                 Naše realizácie
               </h1>
             </div>
           </div>
         </section>
 
-        {/* Filters */}
-        <section className="px-5 pt-16 pb-4 md:px-8 lg:px-14">
+        {/* Content Section */}
+        <section className="px-5 py-12 md:px-8 lg:px-14">
           <div className="mx-auto max-w-[1440px]">
-            <div className="flex flex-wrap gap-3">
+            {/* Breadcrumbs inside content */}
+            <div className="flex flex-wrap items-center gap-2 text-[12px] font-bold uppercase tracking-widest text-neutral-400 mb-12">
+              <Link href="/" className="transition-colors hover:text-[#f0425c]">Domov</Link>
+              <ChevronRight size={12} />
+              <span className="text-[#f0425c]">Realizácie</span>
+            </div>
+
+            {/* Filters */}
+            <div className="flex flex-wrap gap-3 mb-12">
               {realizationCategories.map((cat) => (
                 <button
                   key={cat}
@@ -66,12 +69,8 @@ export default function RealizaciePage() {
                 </button>
               ))}
             </div>
-          </div>
-        </section>
 
-        {/* Gallery Grid */}
-        <section className="px-5 py-12 md:px-8 lg:px-14 lg:py-16">
-          <div className="mx-auto max-w-[1440px]">
+            {/* Gallery Grid */}
             <motion.div 
               layout
               className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"

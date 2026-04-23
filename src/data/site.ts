@@ -41,7 +41,7 @@ export const site = {
   youtubeEmbed: "https://www.youtube.com/embed/5qXJ5b78Ngw?rel=0&enablejsapi=1",
   mapEmbedUrl:
     "https://maps.google.com/maps?q=Heatcooltech%20s.r.o.&t=m&z=15&output=embed",
-  copyrightYear: "2024",
+  copyrightYear: "2026",
   footerCreditName: "AEB Digital",
   footerCreditUrl: "https://www.aebdigital.sk/",
   description:
