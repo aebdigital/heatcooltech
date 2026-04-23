@@ -7,9 +7,15 @@ export function FloatingCTA() {
   const scrollToForm = () => {
     const element = document.getElementById("objednavka");
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      const offset = 100;
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
     } else {
-      // If the section isn't on the current page, navigate to contact or home
       window.location.href = "/#objednavka";
     }
   };
