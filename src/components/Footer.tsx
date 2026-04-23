@@ -4,6 +4,7 @@ import { ContactForm } from "./ContactForm";
 import { CookieSettingsButton } from "./CookieSettingsButton";
 import { FacebookIcon } from "./Icons";
 import { site } from "@/src/data/site";
+import Link from "next/link";
 import { Phone, Mail, MapPin, Clock, User } from "lucide-react";
 
 export function OrderForm() {
