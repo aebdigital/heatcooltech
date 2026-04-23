@@ -50,14 +50,23 @@ export const site = {
 
 export const navItems = [
   { label: "Domov", href: "/" },
-  { label: "Tepelné čerpadlá", href: "/tepelne-cerpadla/" },
-  { label: "Klimatizácie", href: "/klimatizacie/" },
-  { label: "Podlahové vykurovanie", href: "/podlahove-vykurovanie/" },
-  { label: "Kurenárske práce a výmena radiátorov", href: "/kurenarske-prace-a-vymena-radiatorov/" },
+  {
+    label: "Služby",
+    href: "#",
+    children: [
+      { label: "Tepelné čerpadlá", href: "/tepelne-cerpadla/" },
+      { label: "Klimatizácie", href: "/klimatizacie/" },
+      { label: "Podlahové vykurovanie", href: "/podlahove-vykurovanie/" },
+      { label: "Vodoinštalačné a kurenárske práce", href: "/kurenarske-prace-a-vymena-radiatorov/" },
+    ],
+  },
+  { label: "Realizácie", href: "/realizacie/" },
   { label: "Partneri", href: "/partneri/" },
   { label: "Dotácie", href: "/dotacie/" },
   { label: "Kontakt", href: "/kontakt/" },
 ];
+
+
 
 export const heroSlides = [
   upload("2-768x1024.jpg"),
@@ -234,6 +243,21 @@ export const pages: ContentPage[] = [
       "Firma Heatcooltech je tiež známa tým, že dokáže vybaviť dotácie za svojich zákazníkov. S touto službou zákazníci nemusia mať starosti s administratívnymi záležitosťami spojenými s vybavovaním dotácií. Heatcooltech sa postará o všetky potrebné kroky a dokumentáciu, aby zákazníci mohli využiť všetky dostupné finančné prostriedky na modernizáciu svojej tepelnej techniky.",
     ],
   },
+];
+
+export const allRealizations = [
+  ...heatPumpGallery.map((img) => ({ ...img, category: "Tepelné čerpadlá" })),
+  ...airConditioningGallery.map((img) => ({ ...img, category: "Klimatizácie" })),
+  ...floorHeatingGallery.map((img) => ({ ...img, category: "Podlahové vykurovanie" })),
+  ...radiatorGallery.map((img) => ({ ...img, category: "Kurenárske práce" })),
+];
+
+export const realizationCategories = [
+  "Všetko",
+  "Tepelné čerpadlá",
+  "Klimatizácie",
+  "Podlahové vykurovanie",
+  "Kurenárske práce",
 ];
 
 export const blogPost = {
