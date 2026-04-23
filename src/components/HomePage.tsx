@@ -51,7 +51,7 @@ export function HomePage() {
           </div>
           <div className="absolute inset-0 bg-black/42" />
 
-          <div className="relative z-10 mx-auto flex min-h-[92svh] w-full max-w-[1440px] items-center px-5 pb-20 pt-44 md:min-h-[100svh] md:px-8 lg:px-14 lg:pt-52">
+          <div className="relative z-10 mx-auto flex min-h-[92svh] w-full max-w-[1440px] items-center px-5 md:min-h-[100svh] md:px-8 lg:px-14">
             <div className="max-w-[880px]">
               <h1 className="font-display text-[34px] font-bold uppercase leading-[1.16] md:text-[52px] lg:text-[60px]" data-reveal>
                 <span className="block">{heroHeadline.firstLine}</span>

@@ -40,7 +40,7 @@ export const site = {
   googleVerification: "8vXONFsWoYiftQUzjWPSGsstlkgOcnUBhDHCSnG0Wuc",
   youtubeEmbed: "https://www.youtube.com/embed/5qXJ5b78Ngw?rel=0&enablejsapi=1",
   mapEmbedUrl:
-    "https://maps.google.com/maps?q=Heatcooltech%20s.r.o.&t=m&z=15&output=embed",
+    "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10532.833005856402!2d19.0886586!3d48.7188734!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715161d39269d19%3A0xc756832cd50f31b3!2sHeatcooltech%20s.r.o.!5e0!3m2!1ssk!2ssk!4v1713914800000!5m2!1ssk!2ssk",
   copyrightYear: "2026",
   footerCreditName: "AEB Digital",
   footerCreditUrl: "https://www.aebdigital.sk/",
@@ -69,9 +69,9 @@ export const navItems = [
 
 
 export const heroSlides = [
-  upload("2-768x1024.jpg"),
-  upload("1-1024x768.jpg"),
-  upload("3-768x1024.jpg"),
+  upload("20-769x1024.jpg"),
+  upload("104-1024x768.jpg"),
+  upload("200-1024x769.jpg"),
 ];
 
 export const heroHeadline = {
