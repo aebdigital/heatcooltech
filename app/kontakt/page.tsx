@@ -46,17 +46,16 @@ export default function KontaktPage() {
 
             <div className="grid gap-16 lg:grid-cols-[minmax(320px,0.7fr)_minmax(0,1.3fr)] lg:items-start lg:gap-24">
               
-              {/* Contact Details with Hierarchy */}
               <div className="space-y-12" data-reveal>
                 
-                {/* Company & Address */}
+                {/* Sídlo */}
                 <div className="space-y-6">
                   <div className="flex items-center gap-3 text-[#f0425c]">
-                    <MapPin size={24} />
-                    <h2 className="font-display text-[14px] font-bold uppercase tracking-widest text-neutral-400">Sídlo spoločnosti</h2>
+                    <MapPin size={24} strokeWidth={2.5} />
+                    <p className="font-display text-[12px] font-bold uppercase tracking-widest text-neutral-400">Sídlo spoločnosti</p>
                   </div>
                   <div className="space-y-1">
-                    <p className="font-display text-[28px] font-bold leading-tight text-black">{site.name}</p>
+                    <p className="font-display text-[32px] font-bold leading-tight text-black">{site.name}</p>
                     <div className="text-[19px] leading-relaxed text-[#555]">
                       <p>{site.addressLines[0]}</p>
                       <p>{site.addressLines[1]}</p>
@@ -64,50 +63,51 @@ export default function KontaktPage() {
                   </div>
                 </div>
                 
-                {/* Hours */}
-                <div className="space-y-6">
-                  <div className="flex items-center gap-3 text-[#f0425c]">
-                    <Clock size={24} />
-                    <h2 className="font-display text-[14px] font-bold uppercase tracking-widest text-neutral-400">Otváracie hodiny</h2>
+                {/* Hours & Management - Grid like homepage */}
+                <div className="grid gap-10 sm:grid-cols-2">
+                  <div className="space-y-6">
+                    <div className="flex items-center gap-3 text-[#f0425c]">
+                      <Clock size={24} strokeWidth={2.5} />
+                      <p className="font-display text-[12px] font-bold uppercase tracking-widest text-neutral-400">Otváracie hodiny</p>
+                    </div>
+                    <p className="text-[22px] font-bold text-black leading-snug">{site.hoursFull}</p>
                   </div>
-                  <p className="text-[22px] font-bold text-black">{site.hoursFull}</p>
+
+                  <div className="space-y-6">
+                    <div className="flex items-center gap-3 text-[#f0425c]">
+                      <User size={24} strokeWidth={2.5} />
+                      <p className="font-display text-[12px] font-bold uppercase tracking-widest text-neutral-400">Vedenie</p>
+                    </div>
+                    <p className="text-[22px] font-bold text-black leading-snug">{site.manager}</p>
+                  </div>
                 </div>
 
-                {/* Management */}
-                <div className="space-y-6">
-                  <div className="flex items-center gap-3 text-[#f0425c]">
-                    <User size={24} />
-                    <h2 className="font-display text-[14px] font-bold uppercase tracking-widest text-neutral-400">Vedenie spoločnosti</h2>
-                  </div>
-                  <p className="text-[22px] font-bold text-black">{site.manager}</p>
-                </div>
-
-                {/* Contact Links */}
-                <div className="space-y-10 pt-4 border-t border-neutral-100">
+                {/* Direct Contact Links */}
+                <div className="space-y-10 pt-10 border-t border-neutral-100">
                   <div className="group flex items-start gap-6">
-                    <div className="mt-1 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-neutral-50 text-[#f0425c] transition-colors group-hover:bg-[#f0425c] group-hover:text-white">
-                      <Phone size={24} />
+                    <div className="mt-1 flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-neutral-50 text-[#f0425c] transition-colors group-hover:bg-[#f0425c] group-hover:text-white">
+                      <Phone size={28} />
                     </div>
                     <div>
                       <p className="text-[12px] font-bold uppercase tracking-widest text-neutral-400">Telefón</p>
-                      <a href={site.phoneHref} className="mt-1 block text-[26px] font-bold text-black transition-colors hover:text-[#f0425c]">
+                      <a href={site.phoneHref} className="mt-1 block text-[28px] font-bold text-black transition-colors hover:text-[#f0425c]">
                         {site.phone}
                       </a>
                     </div>
                   </div>
 
                   <div className="group flex items-start gap-6">
-                    <div className="mt-1 flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-neutral-50 text-[#f0425c] transition-colors group-hover:bg-[#f0425c] group-hover:text-white">
-                      <Mail size={24} />
+                    <div className="mt-1 flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-neutral-50 text-[#f0425c] transition-colors group-hover:bg-[#f0425c] group-hover:text-white">
+                      <Mail size={28} />
                     </div>
                     <div>
                       <p className="text-[12px] font-bold uppercase tracking-widest text-neutral-400">E-mail</p>
                       <div className="mt-1 flex flex-col gap-1">
-                        <a href={`mailto:${site.email}`} className="block text-[22px] font-bold text-black transition-colors hover:text-[#f0425c]">
+                        <a href={`mailto:${site.email}`} className="block text-[24px] font-bold text-black transition-colors hover:text-[#f0425c]">
                           {site.email}
                         </a>
-                        <a href="mailto:juraj.jombik@gmail.com" className="block text-[18px] font-medium text-neutral-500 transition-colors hover:text-[#f0425c]">
-                          juraj.jombik@gmail.com
+                        <a href={`mailto:${site.secondaryEmail}`} className="block text-[19px] font-medium text-neutral-500 transition-colors hover:text-[#f0425c]">
+                          {site.secondaryEmail}
                         </a>
                       </div>
                     </div>
@@ -120,20 +120,20 @@ export default function KontaktPage() {
                     href={site.facebook}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex items-center gap-4 rounded-2xl bg-neutral-50 px-6 py-4 transition-all hover:bg-[#2454ff]/5 hover:translate-y-[-2px]"
+                    className="inline-flex items-center gap-5 rounded-2xl bg-neutral-50 px-8 py-5 transition-all hover:bg-[#2454ff]/5 hover:translate-y-[-2px]"
                   >
-                    <FacebookIcon className="h-10 w-10" />
+                    <FacebookIcon className="h-11 w-11" />
                     <div className="text-left">
                       <p className="text-[11px] font-bold uppercase tracking-widest text-neutral-400">Sledujte nás</p>
-                      <p className="font-display text-[18px] font-bold text-[#2454ff]">Heatcooltech s.r.o</p>
+                      <p className="font-display text-[20px] font-bold text-[#2454ff]">Heatcooltech s.r.o</p>
                     </div>
                   </a>
                 </div>
               </div>
 
-              {/* Map */}
-              <div className="overflow-hidden rounded-[24px] bg-white shadow-[0_32px_80px_rgba(0,0,0,0.1)] lg:sticky lg:top-32" data-reveal>
-                <div className="wp-map aspect-[16/10] min-h-[450px] md:aspect-[16/9] lg:aspect-[4/5]">
+              {/* Map - Removed grayscale */}
+              <div className="overflow-hidden rounded-[24px] bg-white shadow-[0_32px_80px_rgba(0,0,0,0.12)] lg:sticky lg:top-32" data-reveal>
+                <div className="wp-map aspect-[16/10] min-h-[500px] md:aspect-[16/9] lg:aspect-[4/5]">
                   <iframe
                     width="100%"
                     height="100%"
@@ -141,7 +141,6 @@ export default function KontaktPage() {
                     src={site.mapEmbedUrl}
                     allowFullScreen
                     title={site.name}
-                    className="grayscale contrast-125"
                   />
                 </div>
               </div>

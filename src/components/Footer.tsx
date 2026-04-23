@@ -146,7 +146,6 @@ export function ContactSection() {
                 src={site.mapEmbedUrl}
                 allowFullScreen
                 title={site.name}
-                className="grayscale contrast-125"
               />
             </div>
           </div>
