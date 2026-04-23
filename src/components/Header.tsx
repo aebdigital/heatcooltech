@@ -45,7 +45,7 @@ export function Header({ overlay = false }: HeaderProps) {
             />
           </Link>
 
-          {/* Desktop Navigation - Integrated between logo and hours */}
+          {/* Desktop Navigation */}
           <nav className="hidden xl:block">
             <ul className="flex items-center gap-7 font-display text-[14px] font-bold uppercase tracking-wider">
               {navItems.map((item) => {
@@ -60,16 +60,22 @@ export function Header({ overlay = false }: HeaderProps) {
                     onMouseLeave={() => hasChildren && setActiveDropdown(null)}
                   >
                     {hasChildren ? (
-                      <div className="flex items-center gap-1 py-2 cursor-pointer transition-colors hover:text-[#f0425c]">
+                      <div className={`relative flex items-center gap-1 py-2 cursor-pointer transition-colors hover:text-[#f0425c] ${isActive ? "text-[#f0425c]" : ""}`}>
                         <span>{item.label}</span>
                         <ChevronDown size={14} className={`transition-transform duration-300 ${activeDropdown === item.label ? "rotate-180" : ""}`} />
+                        
+                        {/* Animated Underline */}
+                        <div className={`absolute bottom-0 left-0 h-0.5 bg-[#f0425c] transition-all duration-300 ${isActive ? "w-full" : "w-0 group-hover:w-full"}`} />
                       </div>
                     ) : (
                       <Link
                         href={item.href}
-                        className={`block py-2 transition-colors hover:text-[#f0425c] ${isActive ? "text-[#f0425c]" : ""}`}
+                        className={`relative block py-2 transition-colors hover:text-[#f0425c] ${isActive ? "text-[#f0425c]" : ""}`}
                       >
                         {item.label}
+                        
+                        {/* Animated Underline */}
+                        <div className={`absolute bottom-0 left-0 h-0.5 bg-[#f0425c] transition-all duration-300 ${isActive ? "w-full" : "w-0 group-hover:w-full"}`} />
                       </Link>
                     )}
 

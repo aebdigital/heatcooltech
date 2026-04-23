@@ -66,7 +66,7 @@ export function ContentPage({ page }: Props) {
     <>
       <Header overlay />
       
-      {/* Hero Section - Updated to 30vh */}
+      {/* Hero Section */}
       <section className="relative h-[35vh] min-h-[300px] w-full overflow-hidden bg-neutral-900">
         <Image 
           src={heroImage} 
@@ -80,7 +80,7 @@ export function ContentPage({ page }: Props) {
         <div className="absolute inset-0 flex items-center justify-center px-5 md:px-8 lg:px-14">
           <div className="mx-auto w-full max-w-[1440px] text-center">
             <h1 className="font-display text-[48px] font-bold uppercase leading-none text-white md:text-[72px]" data-reveal>
-              {page.partnerHeading || page.title}
+              {page.title}
             </h1>
           </div>
         </div>
@@ -92,7 +92,6 @@ export function ContentPage({ page }: Props) {
           {/* Sidebar */}
           <aside className="shrink-0 lg:w-80">
             <div className="sticky top-32 space-y-8">
-              {/* Breadcrumbs moved here */}
               <div className="flex flex-wrap items-center gap-2 text-[12px] font-bold uppercase tracking-widest text-neutral-400 mb-6">
                 <Link href="/" className="transition-colors hover:text-[#f0425c]">Domov</Link>
                 <ChevronRight size={12} />
@@ -152,10 +151,16 @@ export function ContentPage({ page }: Props) {
               </div>
             ) : null}
 
+            {page.partnerHeading ? (
+               <h2 className="font-display text-[32px] font-bold uppercase text-[#f0425c] mb-8 md:text-[42px]" data-reveal>
+                 {page.partnerHeading}
+               </h2>
+            ) : null}
+
             {page.paragraphs.length > 0 ? (
               <div className="prose-copy text-[19px] leading-[2] text-[#555]" data-reveal>
                 {page.paragraphs.map((paragraph) => (
-                  <p key={paragraph}>
+                  <p key={paragraph} className="mb-6 last:mb-0">
                     {page.slug === "dotacie" && paragraph.includes("až do výšky 4 370 €") ? (
                       <>
                         Získajte s nami <strong>finančný príspevok na obnoviteľné zdroje energií až do výšky 4 370 €</strong> v rámci
