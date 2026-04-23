@@ -133,7 +133,7 @@ export default function KontaktPage() {
 
               {/* Map - Removed grayscale */}
               <div className="overflow-hidden rounded-[24px] bg-white shadow-[0_32px_80px_rgba(0,0,0,0.12)] lg:sticky lg:top-32" data-reveal>
-                <div className="wp-map aspect-[16/10] min-h-[500px] md:aspect-[16/9] lg:aspect-[4/5]">
+                <div className="wp-map aspect-[16/10] min-h-[400px] md:aspect-[16/9] lg:aspect-[16/13]">
                   <iframe
                     width="100%"
                     height="100%"
