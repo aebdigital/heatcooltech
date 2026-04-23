@@ -109,11 +109,13 @@ export function ContentPage({ page }: Props) {
                         href={link.href}
                         className={`group flex items-center justify-between rounded-xl px-5 py-4 transition-all ${
                           isActive 
-                            ? "bg-[#f0425c] text-white shadow-lg shadow-[#f0425c]/20" 
+                            ? "bg-[#f0425c] shadow-lg shadow-[#f0425c]/20" 
                             : "bg-neutral-50 text-neutral-700 hover:bg-neutral-100"
                         }`}
                       >
-                        <span className="font-display text-[15px] font-bold uppercase">{link.label}</span>
+                        <span className={`font-display text-[15px] font-bold uppercase transition-colors ${isActive ? "text-white" : ""}`}>
+                          {link.label}
+                        </span>
                         <ArrowRight size={18} className={`transition-transform duration-300 ${isActive ? "translate-x-0" : "-translate-x-2 opacity-0 group-hover:translate-x-0 group-hover:opacity-100"}`} />
                       </Link>
                     );
