@@ -23,54 +23,6 @@ export function OrderForm() {
   );
 }
 
-export function ContactSection() {
-  return (
-    <section id="kontakt" className="bg-white px-5 py-16 md:px-8 lg:px-14 lg:py-20">
-      <div className="mx-auto max-w-[1440px]">
-        <h2 className="font-display text-[48px] font-bold uppercase leading-none text-[#f0425c] md:text-[64px]" data-reveal>
-          Kontakt
-        </h2>
-        <div className="mt-10 grid gap-10 lg:grid-cols-[minmax(320px,0.85fr)_minmax(0,1.15fr)] lg:items-start lg:gap-16">
-          <div className="space-y-3 text-[18px] leading-8 text-[#4b4b4b]" data-reveal>
-            <p className="font-semibold text-[#2f2f2f]">{site.name}</p>
-            <p>{site.addressLines[0]}</p>
-            <p>{site.addressLines[1]}</p>
-            <p className="pt-4 font-semibold text-[#2f2f2f]">Otváracie hodiny:</p>
-            <p>{site.hoursFull}</p>
-            <p className="pt-1 font-semibold text-[#2f2f2f]">Vedenie spoločnosti:</p>
-            <p>{site.manager}</p>
-            <p>
-              <strong>Tel:</strong>{" "}
-              <a className="transition hover:text-[#f0425c]" href={site.phoneHref}>
-                {site.phone}
-              </a>
-            </p>
-            <p>
-              <strong>Email:</strong>{" "}
-              <a className="transition hover:text-[#f0425c]" href={`mailto:${site.email}`}>
-                {site.email}
-              </a>
-            </p>
-            <p>
-              <span className="inline-block w-[58px]" />
-              <a className="transition hover:text-[#f0425c]" href={`mailto:${site.secondaryEmail}`}>
-                {site.secondaryEmail}
-              </a>
-            </p>
-            <a
-              href={site.facebook}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center gap-3 pt-2 font-display text-[18px] font-semibold text-[#2454ff] transition hover:opacity-80"
-            >
-              <FacebookIcon className="h-9 w-9" />
-              Heatcooltech s.r.o
-            </a>
-          </div>
-
-  );
-}
-
 export function FooterCredits() {
   return (
     <div className="mt-14 flex flex-col gap-3 border-t border-neutral-200 pt-6 text-[15px] text-[#444] md:flex-row md:items-center md:justify-between">
