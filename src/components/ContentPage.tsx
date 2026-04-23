@@ -1,13 +1,18 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
 import { getPagePath, type ContentPage as ContentPageType, site } from "@/src/data/site";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
+import { Lightbox } from "./Lightbox";
 
 type Props = {
   page: ContentPageType;
 };
 
 export function ContentPage({ page }: Props) {
+  const [lightbox, setLightbox] = useState<{ index: number } | null>(null);
   const pageUrl = `${site.source}${getPagePath(page.slug)}`;
   const schema = {
     "@context": "https://schema.org",
@@ -112,11 +117,11 @@ export function ContentPage({ page }: Props) {
                 </h2>
               ) : null}
               <div className={`grid gap-8 ${page.slug === "tepelne-cerpadla" ? "mt-10" : "mt-4"} md:grid-cols-2 xl:grid-cols-3`}>
-                {page.gallery.map((image) => (
-                  <a
+                {page.gallery.map((image, index) => (
+                  <button
                     key={image.src}
-                    href={image.src}
-                    className="gallery-tile group block overflow-hidden rounded-[4px] bg-white shadow-[0_14px_34px_rgba(0,0,0,0.10)]"
+                    onClick={() => setLightbox({ index })}
+                    className="gallery-tile group block overflow-hidden rounded-[4px] bg-white shadow-[0_14px_34px_rgba(0,0,0,0.10)] cursor-pointer text-left"
                     data-reveal
                   >
                     <div className="relative aspect-[4/3] w-full overflow-hidden">
@@ -128,7 +133,7 @@ export function ContentPage({ page }: Props) {
                         className="object-cover transition duration-500 group-hover:scale-[1.03]"
                       />
                     </div>
-                  </a>
+                  </button>
                 ))}
               </div>
             </section>
@@ -137,6 +142,13 @@ export function ContentPage({ page }: Props) {
       </main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       <Footer />
+      {lightbox !== null && page.gallery && (
+        <Lightbox
+          images={page.gallery}
+          initialIndex={lightbox.index}
+          onClose={() => setLightbox(null)}
+        />
+      )}
     </>
   );
 }

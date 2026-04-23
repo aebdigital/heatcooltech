@@ -1,9 +1,13 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { aboutParagraphs, certificates, heroHeadline, heroSlides, homeFeatureItems, serviceCards, site } from "@/src/data/site";
 import { BadgeIcon, ChecklistIcon, PhoneIcon, ToolboxIcon } from "./Icons";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
+import { Lightbox } from "./Lightbox";
 
 const homeSchema = {
   "@context": "https://schema.org",
@@ -32,6 +36,7 @@ const featureIcons = [
 ];
 
 export function HomePage() {
+  const [lightbox, setLightbox] = useState<{ index: number } | null>(null);
   return (
     <>
       <Header overlay />
@@ -113,17 +118,17 @@ export function HomePage() {
               Naše certifikáty
             </h2>
             <div className="mt-12 grid gap-8 md:grid-cols-3">
-              {certificates.map((certificate) => (
-                <a
+              {certificates.map((certificate, index) => (
+                <button
                   key={certificate.src}
-                  href={certificate.src}
-                  className="certificate-card block overflow-hidden rounded-[4px] bg-white shadow-[0_18px_40px_rgba(0,0,0,0.12)]"
+                  onClick={() => setLightbox({ index })}
+                  className="certificate-card block overflow-hidden rounded-[4px] bg-white shadow-[0_18px_40px_rgba(0,0,0,0.12)] cursor-pointer text-left"
                   data-reveal
                 >
                   <div className="relative aspect-[3/4] w-full">
                     <Image src={certificate.src} alt={certificate.alt} fill sizes="(max-width: 767px) 100vw, 33vw" className="object-cover object-top" />
                   </div>
-                </a>
+                </button>
               ))}
             </div>
           </div>
@@ -157,6 +162,13 @@ export function HomePage() {
       </main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homeSchema) }} />
       <Footer />
+      {lightbox !== null && (
+        <Lightbox
+          images={certificates}
+          initialIndex={lightbox.index}
+          onClose={() => setLightbox(null)}
+        />
+      )}
     </>
   );
 }

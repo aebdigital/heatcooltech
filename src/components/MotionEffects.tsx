@@ -1,9 +1,12 @@
 "use client";
 
 import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 import Lenis from "lenis";
 
 export function MotionEffects() {
+  const pathname = usePathname();
+
   useEffect(() => {
     const lenis = new Lenis({
       autoRaf: false,
@@ -54,7 +57,7 @@ export function MotionEffects() {
       window.cancelAnimationFrame(frame);
       lenis.destroy();
     };
-  }, []);
+  }, [pathname]);
 
   return null;
 }
