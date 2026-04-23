@@ -2,11 +2,13 @@
 
 import { useState, useMemo } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { Header } from "@/src/components/Header";
 import { Footer } from "@/src/components/Footer";
 import { Lightbox } from "@/src/components/Lightbox";
 import { allRealizations, realizationCategories, site } from "@/src/data/site";
+import { ChevronRight } from "lucide-react";
 
 export default function RealizaciePage() {
   const [activeCategory, setActiveCategory] = useState("Všetko");
@@ -19,29 +21,42 @@ export default function RealizaciePage() {
 
   return (
     <>
-      <Header />
+      <Header overlay />
       <main className="bg-white">
         {/* Hero Section */}
-        <section className="px-5 pt-20 pb-12 md:px-8 md:pt-32 lg:px-14 lg:pb-16">
-          <div className="mx-auto max-w-[1440px]">
-            <h1 className="font-display text-[48px] font-bold uppercase leading-none text-[#f0425c] md:text-[72px]" data-reveal>
-              Naše realizácie
-            </h1>
-            <p className="mt-8 max-w-[800px] text-[19px] leading-[1.8] text-[#555]" data-reveal>
-              Pozrite si ukážky našej práce. Od montáže tepelných čerpadiel a klimatizácií až po kompletné podlahové vykurovanie.
-            </p>
+        <section className="relative h-[60vh] min-h-[500px] w-full overflow-hidden bg-neutral-900">
+          <Image 
+            src={allRealizations[0].src} 
+            alt="Realizácie" 
+            fill 
+            className="object-cover opacity-50"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-neutral-900 via-transparent to-transparent" />
+          
+          <div className="absolute inset-0 flex items-end pb-20 px-5 md:px-8 lg:px-14">
+            <div className="mx-auto w-full max-w-[1440px]">
+              <div className="flex flex-wrap items-center gap-3 text-[13px] font-bold uppercase tracking-widest text-white/60 mb-6">
+                <Link href="/" className="transition-colors hover:text-[#f0425c]">Domov</Link>
+                <ChevronRight size={14} />
+                <span className="text-[#f0425c]">Realizácie</span>
+              </div>
+              <h1 className="font-display text-[52px] font-bold uppercase leading-[0.9] text-white md:text-[86px]" data-reveal>
+                Naše realizácie
+              </h1>
+            </div>
           </div>
         </section>
 
         {/* Filters */}
-        <section className="px-5 py-6 md:px-8 lg:px-14">
+        <section className="px-5 pt-16 pb-4 md:px-8 lg:px-14">
           <div className="mx-auto max-w-[1440px]">
             <div className="flex flex-wrap gap-3">
               {realizationCategories.map((cat) => (
                 <button
                   key={cat}
                   onClick={() => setActiveCategory(cat)}
-                  className={`rounded-full px-6 py-2.5 font-display text-[14px] font-bold uppercase tracking-wider transition-all ${
+                  className={`rounded-full px-6 py-2.5 font-display text-[13px] font-bold uppercase tracking-widest transition-all ${
                     activeCategory === cat
                       ? "bg-[#f0425c] text-white shadow-lg shadow-[#f0425c]/20"
                       : "bg-neutral-100 text-neutral-500 hover:bg-neutral-200"
@@ -81,8 +96,8 @@ export default function RealizaciePage() {
                       className="object-cover transition-transform duration-500 group-hover:scale-110"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-                    <div className="absolute bottom-4 left-4 text-white opacity-0 transition-all duration-300 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0">
-                       <p className="text-[11px] font-bold uppercase tracking-widest opacity-70">{image.category}</p>
+                    <div className="absolute bottom-4 left-4 text-white opacity-0 transition-all duration-300 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 text-left">
+                       <p className="text-[10px] font-bold uppercase tracking-widest opacity-70">{image.category}</p>
                     </div>
                   </motion.button>
                 ))}

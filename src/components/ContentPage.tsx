@@ -8,7 +8,7 @@ import { getPagePath, type ContentPage as ContentPageType, site, navItems } from
 import { Footer } from "./Footer";
 import { Header } from "./Header";
 import { Lightbox } from "./Lightbox";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ChevronRight } from "lucide-react";
 
 type Props = {
   page: ContentPageType;
@@ -22,6 +22,9 @@ export function ContentPage({ page }: Props) {
   // Get all service links for the sidebar
   const serviceLinks = navItems.find(item => item.label === "Služby")?.children || [];
   
+  // Use the first image of the gallery as hero background, or a fallback
+  const heroImage = page.gallery?.[0]?.src || site.socialImage;
+
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -56,34 +59,44 @@ export function ContentPage({ page }: Props) {
     ],
   };
 
-  // Limit gallery items on service pages
   const displayGallery = page.gallery?.slice(0, 6) || [];
   const hasMoreImages = (page.gallery?.length || 0) > 6;
 
   return (
     <>
-      <Header />
+      <Header overlay />
       
-      {page.dotacieImage ? (
-        <div className="mx-auto mt-10 px-5 max-w-[970px]" data-reveal>
-          <div className="relative aspect-[6/1] w-full overflow-hidden rounded-[4px] bg-white shadow-[0_18px_44px_rgba(0,0,0,0.12)]">
-            <Image
-              src={page.dotacieImage.src}
-              alt={page.dotacieImage.alt}
-              fill
-              sizes="(max-width: 991px) 100vw, 930px"
-              className="object-contain"
-            />
+      {/* Hero Section */}
+      <section className="relative h-[60vh] min-h-[500px] w-full overflow-hidden bg-neutral-900">
+        <Image 
+          src={heroImage} 
+          alt={page.title} 
+          fill 
+          className="object-cover opacity-50"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-neutral-900 via-transparent to-transparent" />
+        
+        <div className="absolute inset-0 flex items-end pb-20 px-5 md:px-8 lg:px-14">
+          <div className="mx-auto w-full max-w-[1440px]">
+            <div className="flex flex-wrap items-center gap-3 text-[13px] font-bold uppercase tracking-widest text-white/60 mb-6">
+              <Link href="/" className="transition-colors hover:text-[#f0425c]">Domov</Link>
+              <ChevronRight size={14} />
+              <span className="text-[#f0425c]">{page.title}</span>
+            </div>
+            <h1 className="font-display text-[52px] font-bold uppercase leading-[0.9] text-white md:text-[86px]" data-reveal>
+              {page.partnerHeading || page.title}
+            </h1>
           </div>
         </div>
-      ) : null}
+      </section>
 
-      <main className="bg-white px-5 py-14 md:px-8 lg:px-14 lg:py-20">
-        <div className="mx-auto flex w-full max-w-[1440px] flex-col gap-12 lg:flex-row">
+      <main className="bg-white">
+        <div className="mx-auto flex w-full max-w-[1440px] flex-col gap-12 px-5 py-16 md:px-8 lg:flex-row lg:px-14 lg:py-24">
           
           {/* Sidebar */}
           <aside className="shrink-0 lg:w-80">
-            <div className="sticky top-24 space-y-8">
+            <div className="sticky top-32 space-y-8">
               <div>
                 <p className="font-display text-[12px] font-bold uppercase tracking-widest text-neutral-400">Naše Služby</p>
                 <nav className="mt-4 flex flex-col gap-2">
@@ -121,25 +134,24 @@ export function ContentPage({ page }: Props) {
             </div>
           </aside>
 
-          {/* Main Content */}
+          {/* Main Content Area */}
           <article className="flex-1 min-w-0">
-            {page.partnerHeading ? (
-              <section className="pb-12">
-                <h1 className="font-display text-[44px] font-bold uppercase leading-tight text-[#f0425c] md:text-[64px]" data-reveal>
-                  {page.partnerHeading}
-                </h1>
-                <p className="mt-5 text-[18px] leading-8 text-[#666]" data-reveal>
-                  IVT Tepelné čerpadlá
-                </p>
-              </section>
-            ) : (
-              <h1 className="font-display text-[44px] font-bold uppercase leading-tight text-[#f0425c] md:text-[64px]" data-reveal>
-                {page.title}
-              </h1>
-            )}
+            {page.dotacieImage ? (
+              <div className="mb-14" data-reveal>
+                <div className="relative aspect-[6/1] w-full overflow-hidden rounded-[4px] bg-white shadow-[0_18px_44px_rgba(0,0,0,0.12)]">
+                  <Image
+                    src={page.dotacieImage.src}
+                    alt={page.dotacieImage.alt}
+                    fill
+                    sizes="(max-width: 991px) 100vw, 930px"
+                    className="object-contain"
+                  />
+                </div>
+              </div>
+            ) : null}
 
             {page.paragraphs.length > 0 ? (
-              <div className="prose-copy mt-10 text-[19px] leading-[2] text-[#555]" data-reveal>
+              <div className="prose-copy text-[19px] leading-[2] text-[#555]" data-reveal>
                 {page.paragraphs.map((paragraph) => (
                   <p key={paragraph}>
                     {page.slug === "dotacie" && paragraph.includes("až do výšky 4 370 €") ? (
@@ -168,7 +180,7 @@ export function ContentPage({ page }: Props) {
             ) : null}
 
             {page.gallery?.length ? (
-              <section className="mt-16">
+              <section className="mt-20">
                 <div className="flex items-end justify-between border-b border-neutral-100 pb-6">
                   <h2 className="font-display text-[32px] font-bold uppercase leading-none text-black md:text-[42px]" data-reveal>
                     Ukážky práce
@@ -200,16 +212,6 @@ export function ContentPage({ page }: Props) {
                       <div className="absolute inset-0 bg-black/20 opacity-0 transition-opacity group-hover:opacity-100" />
                     </button>
                   ))}
-                </div>
-
-                <div className="mt-12 md:hidden">
-                  <Link 
-                    href="/realizacie/" 
-                    className="flex items-center justify-center gap-2 rounded-full border-2 border-[#f0425c] py-4 font-display text-[14px] font-bold uppercase tracking-wider text-[#f0425c]"
-                  >
-                    <span>Všetky realizácie</span>
-                    <ArrowRight size={18} />
-                  </Link>
                 </div>
 
                 {hasMoreImages && (

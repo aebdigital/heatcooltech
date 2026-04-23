@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { CookieConsent } from "@/src/components/CookieConsent";
 import { MotionEffects } from "@/src/components/MotionEffects";
+import { FloatingCTA } from "@/src/components/FloatingCTA";
 import { site } from "@/src/data/site";
 import "./globals.css";
 
@@ -132,6 +133,7 @@ export default function RootLayout({
       <body>
         <MotionEffects />
         {children}
+        <FloatingCTA />
         <CookieConsent />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(globalSchema) }} />
       </body>

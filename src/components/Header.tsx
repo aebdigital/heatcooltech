@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, ChevronDown, Clock } from "lucide-react";
 import { navItems, site } from "@/src/data/site";
@@ -16,54 +16,121 @@ export function Header({ overlay = false }: HeaderProps) {
   const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+  const [scrolled, setScrolled] = useState(false);
 
-  // If overlay is true, we might still want white text in some hero situations, 
-  // but the user explicitly asked for "white bg blur and black links".
-  // So I'll default to white bg blur regardless, but maybe slightly transparent if overlay is active.
-  const headerBg = overlay ? "bg-white/85 backdrop-blur-md" : "bg-white border-b border-neutral-100";
-  const textColor = "text-black";
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 50);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const headerBg = scrolled || !overlay ? "bg-white/95 backdrop-blur-md shadow-sm" : "bg-transparent";
+  const textColor = scrolled || !overlay ? "text-black" : "text-white";
+  const borderColor = scrolled || !overlay ? "border-neutral-100" : "border-white/20";
 
   return (
-    <header className={`relative z-40 ${textColor}`}>
-      {/* Top Bar with Info */}
-      <div className={`border-b border-neutral-100 ${headerBg}`}>
+    <header className={`fixed inset-x-0 top-0 z-[60] transition-all duration-300 ${headerBg} ${textColor}`}>
+      <div className={`border-b transition-colors duration-300 ${borderColor}`}>
         <div className="mx-auto flex w-full max-w-[1440px] items-center justify-between px-5 py-4 md:px-8 lg:px-14">
-          <Link href="/" aria-label="Heatcooltech domov" className="shrink-0">
+          
+          {/* Logo */}
+          <Link href="/" aria-label="Heatcooltech domov" className="shrink-0 relative z-[70]">
             <Image 
               src={site.logo} 
               alt={site.name} 
               width={186} 
               height={112} 
-              className="h-[52px] w-auto md:h-[72px]" 
+              className={`h-[48px] w-auto transition-all duration-300 md:h-[64px] ${scrolled || !overlay ? "" : "brightness-0 invert"}`} 
               priority 
             />
           </Link>
 
+          {/* Desktop Navigation - Integrated between logo and hours */}
+          <nav className="hidden xl:block">
+            <ul className="flex items-center gap-7 font-display text-[14px] font-bold uppercase tracking-wider">
+              {navItems.map((item) => {
+                const hasChildren = item.children && item.children.length > 0;
+                const isActive = pathname === item.href || (hasChildren && item.children?.some(child => pathname === child.href));
+
+                return (
+                  <li 
+                    key={item.label} 
+                    className="relative group"
+                    onMouseEnter={() => hasChildren && setActiveDropdown(item.label)}
+                    onMouseLeave={() => hasChildren && setActiveDropdown(null)}
+                  >
+                    {hasChildren ? (
+                      <div className="flex items-center gap-1 py-2 cursor-pointer transition-colors hover:text-[#f0425c]">
+                        <span>{item.label}</span>
+                        <ChevronDown size={14} className={`transition-transform duration-300 ${activeDropdown === item.label ? "rotate-180" : ""}`} />
+                      </div>
+                    ) : (
+                      <Link
+                        href={item.href}
+                        className={`block py-2 transition-colors hover:text-[#f0425c] ${isActive ? "text-[#f0425c]" : ""}`}
+                      >
+                        {item.label}
+                      </Link>
+                    )}
+
+                    {/* Dropdown Menu */}
+                    {hasChildren && (
+                      <AnimatePresence>
+                        {activeDropdown === item.label && (
+                          <motion.div
+                            initial={{ opacity: 0, y: 10 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            exit={{ opacity: 0, y: 10 }}
+                            transition={{ duration: 0.2 }}
+                            className="absolute left-1/2 -translate-x-1/2 top-full mt-2 w-64 rounded-xl bg-white p-4 shadow-2xl ring-1 ring-black/5 text-black"
+                          >
+                            <ul className="flex flex-col gap-1">
+                              {item.children?.map((child) => (
+                                <li key={child.href}>
+                                  <Link
+                                    href={child.href}
+                                    className={`block rounded-lg px-4 py-2.5 text-[13px] transition-colors hover:bg-neutral-50 hover:text-[#f0425c] ${pathname === child.href ? "bg-neutral-50 text-[#f0425c]" : "text-neutral-600"}`}
+                                  >
+                                    {child.label}
+                                  </Link>
+                                </li>
+                              ))}
+                            </ul>
+                          </motion.div>
+                        )}
+                      </AnimatePresence>
+                    )}
+                  </li>
+                );
+              })}
+            </ul>
+          </nav>
+
+          {/* Opening Hours & Hamburger */}
           <div className="flex items-center gap-6">
-            <div className="hidden items-center gap-4 md:flex">
-              <div className="flex h-14 w-14 items-center justify-center rounded-full border border-neutral-200 text-[#f0425c]">
-                <Clock size={24} />
+            <div className="hidden lg:flex items-center gap-4">
+              <div className={`flex h-12 w-12 items-center justify-center rounded-full border transition-colors duration-300 ${scrolled || !overlay ? "border-neutral-200 text-[#f0425c]" : "border-white/30 text-white"}`}>
+                <Clock size={20} />
               </div>
               <div className="font-display leading-tight">
-                <p className="text-[11px] font-bold uppercase tracking-widest text-neutral-400">{site.hoursLabel}</p>
-                <p className="text-[28px] font-bold text-black">{site.hours}</p>
+                <p className={`text-[10px] font-bold uppercase tracking-widest transition-colors duration-300 ${scrolled || !overlay ? "text-neutral-400" : "text-white/60"}`}>{site.hoursLabel}</p>
+                <p className={`text-[24px] font-bold transition-colors duration-300 ${scrolled || !overlay ? "text-black" : "text-white"}`}>{site.hours}</p>
               </div>
             </div>
 
-            {/* Hamburger Button */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="relative z-[60] flex h-12 w-12 items-center justify-center rounded-full bg-neutral-100 md:hidden"
+              className={`relative z-[70] flex h-11 w-11 items-center justify-center rounded-full transition-colors duration-300 xl:hidden ${scrolled || !overlay ? "bg-neutral-100" : "bg-white/10"}`}
               aria-label="Menu"
             >
               <AnimatePresence mode="wait">
                 {isMenuOpen ? (
                   <motion.div key="close" initial={{ rotate: -90, opacity: 0 }} animate={{ rotate: 0, opacity: 1 }} exit={{ rotate: 90, opacity: 0 }} transition={{ duration: 0.2 }}>
-                    <X size={24} className="text-black" />
+                    <X size={22} className={scrolled || !overlay ? "text-black" : "text-white"} />
                   </motion.div>
                 ) : (
                   <motion.div key="menu" initial={{ rotate: 90, opacity: 0 }} animate={{ rotate: 0, opacity: 1 }} exit={{ rotate: -90, opacity: 0 }} transition={{ duration: 0.2 }}>
-                    <Menu size={24} className="text-black" />
+                    <Menu size={22} className={scrolled || !overlay ? "text-black" : "text-white"} />
                   </motion.div>
                 )}
               </AnimatePresence>
@@ -71,69 +138,6 @@ export function Header({ overlay = false }: HeaderProps) {
           </div>
         </div>
       </div>
-
-      {/* Main Navigation */}
-      <nav className={`hidden border-b border-neutral-100 md:block ${headerBg}`}>
-        <div className="mx-auto max-w-[1440px] px-5 py-0 md:px-8 lg:px-14">
-          <ul className="flex items-center gap-8 font-display text-[15px] font-bold uppercase tracking-wider">
-            {navItems.map((item) => {
-              const hasChildren = item.children && item.children.length > 0;
-              const isActive = pathname === item.href || (hasChildren && item.children?.some(child => pathname === child.href));
-
-              return (
-                <li 
-                  key={item.label} 
-                  className="relative group"
-                  onMouseEnter={() => hasChildren && setActiveDropdown(item.label)}
-                  onMouseLeave={() => hasChildren && setActiveDropdown(null)}
-                >
-                  {hasChildren ? (
-                    <div className="flex items-center gap-1 py-5 cursor-pointer transition-colors hover:text-[#f0425c]">
-                      <span>{item.label}</span>
-                      <ChevronDown size={16} className={`transition-transform duration-300 ${activeDropdown === item.label ? "rotate-180" : ""}`} />
-                    </div>
-                  ) : (
-                    <Link
-                      href={item.href}
-                      className={`block py-5 transition-colors hover:text-[#f0425c] ${isActive ? "text-[#f0425c]" : "text-black"}`}
-                    >
-                      {item.label}
-                    </Link>
-                  )}
-
-                  {/* Dropdown Menu */}
-                  {hasChildren && (
-                    <AnimatePresence>
-                      {activeDropdown === item.label && (
-                        <motion.div
-                          initial={{ opacity: 0, y: 10 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          exit={{ opacity: 0, y: 10 }}
-                          transition={{ duration: 0.2 }}
-                          className="absolute left-0 top-full w-64 rounded-b-xl bg-white p-4 shadow-xl ring-1 ring-black/5"
-                        >
-                          <ul className="flex flex-col gap-2">
-                            {item.children?.map((child) => (
-                              <li key={child.href}>
-                                <Link
-                                  href={child.href}
-                                  className={`block rounded-lg px-4 py-3 text-[14px] transition-colors hover:bg-neutral-50 hover:text-[#f0425c] ${pathname === child.href ? "bg-neutral-50 text-[#f0425c]" : "text-neutral-600"}`}
-                                >
-                                  {child.label}
-                                </Link>
-                              </li>
-                            ))}
-                          </ul>
-                        </motion.div>
-                      )}
-                    </AnimatePresence>
-                  )}
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-      </nav>
 
       {/* Mobile Menu Overlay */}
       <AnimatePresence>
@@ -144,14 +148,14 @@ export function Header({ overlay = false }: HeaderProps) {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               onClick={() => setIsMenuOpen(false)}
-              className="fixed inset-0 z-[50] bg-black/40 backdrop-blur-sm md:hidden"
+              className="fixed inset-0 z-[65] bg-black/40 backdrop-blur-sm xl:hidden"
             />
             <motion.div
               initial={{ y: "100%" }}
               animate={{ y: "30%" }}
               exit={{ y: "100%" }}
               transition={{ type: "spring", damping: 25, stiffness: 200 }}
-              className="fixed inset-0 z-[55] flex flex-col rounded-t-[32px] bg-white pt-10 md:hidden overflow-y-auto"
+              className="fixed inset-0 z-[68] flex flex-col rounded-t-[32px] bg-white pt-10 xl:hidden overflow-y-auto shadow-2xl"
             >
               <div className="flex flex-col gap-6 px-10 pb-10">
                 <p className="font-display text-[12px] font-bold uppercase tracking-widest text-neutral-400">Menu</p>
@@ -163,14 +167,14 @@ export function Header({ overlay = false }: HeaderProps) {
                       <li key={item.label}>
                         {hasChildren ? (
                           <div className="space-y-4">
-                            <p className="font-display text-[24px] font-bold uppercase text-neutral-300">{item.label}</p>
+                            <p className="font-display text-[22px] font-bold uppercase text-neutral-300">{item.label}</p>
                             <ul className="flex flex-col gap-4 pl-4 border-l-2 border-neutral-100">
                               {item.children?.map((child) => (
                                 <li key={child.href}>
                                   <Link
                                     href={child.href}
                                     onClick={() => setIsMenuOpen(false)}
-                                    className={`font-display text-[22px] font-bold uppercase leading-none transition-colors ${pathname === child.href ? "text-[#f0425c]" : "text-black"}`}
+                                    className={`font-display text-[20px] font-bold uppercase leading-none transition-colors ${pathname === child.href ? "text-[#f0425c]" : "text-black"}`}
                                   >
                                     {child.label}
                                   </Link>
@@ -182,7 +186,7 @@ export function Header({ overlay = false }: HeaderProps) {
                           <Link
                             href={item.href}
                             onClick={() => setIsMenuOpen(false)}
-                            className={`font-display text-[24px] font-bold uppercase leading-none transition-colors ${pathname === item.href ? "text-[#f0425c]" : "text-black"}`}
+                            className={`font-display text-[22px] font-bold uppercase leading-none transition-colors ${pathname === item.href ? "text-[#f0425c]" : "text-black"}`}
                           >
                             {item.label}
                           </Link>
