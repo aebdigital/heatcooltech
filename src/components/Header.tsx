@@ -173,14 +173,14 @@ export function Header({ overlay = false }: HeaderProps) {
                       <li key={item.label}>
                         {hasChildren ? (
                           <div className="space-y-4">
-                            <p className="font-display text-[22px] font-bold uppercase text-neutral-300">{item.label}</p>
-                            <ul className="flex flex-col gap-4 pl-4 border-l-2 border-neutral-100">
+                            <p className="font-display text-[11px] font-bold uppercase tracking-widest text-neutral-400">Služby</p>
+                            <ul className="flex flex-col gap-6 pl-4 border-l-2 border-neutral-100">
                               {item.children?.map((child) => (
                                 <li key={child.href}>
                                   <Link
                                     href={child.href}
                                     onClick={() => setIsMenuOpen(false)}
-                                    className={`font-display text-[20px] font-bold uppercase leading-none transition-colors ${pathname === child.href ? "text-[#f0425c]" : "text-black"}`}
+                                    className={`font-display text-[24px] font-bold uppercase leading-none transition-colors ${pathname === child.href ? "text-[#f0425c]" : "text-black"}`}
                                   >
                                     {child.label}
                                   </Link>
@@ -192,7 +192,7 @@ export function Header({ overlay = false }: HeaderProps) {
                           <Link
                             href={item.href}
                             onClick={() => setIsMenuOpen(false)}
-                            className={`font-display text-[22px] font-bold uppercase leading-none transition-colors ${pathname === item.href ? "text-[#f0425c]" : "text-black"}`}
+                            className={`font-display text-[26px] font-bold uppercase leading-none transition-colors ${pathname === item.href ? "text-[#f0425c]" : "text-black"}`}
                           >
                             {item.label}
                           </Link>
