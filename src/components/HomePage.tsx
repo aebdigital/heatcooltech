@@ -80,7 +80,7 @@ export function HomePage() {
               <h2 className="font-display text-[48px] font-bold uppercase leading-none text-[#f0425c] md:text-[64px]" data-reveal>
                 O nás
               </h2>
-              <div className="prose-copy mt-10 max-w-[930px] text-[19px] leading-[2.05] text-[#555]" data-reveal>
+              <div className="prose-copy mt-10 max-w-[930px] text-[19px] leading-[1.7] text-[#555]" data-reveal>
                 {aboutParagraphs.map((paragraph) => (
                   <p key={paragraph}>{paragraph}</p>
                 ))}
@@ -152,7 +152,7 @@ export function HomePage() {
                     />
                   </div>
                   <div className="flex min-h-[140px] items-center justify-center px-6 py-8">
-                    <h3 className="font-display text-center text-[20px] font-semibold leading-[1.25] text-[#333] md:text-[24px]">{service.title}</h3>
+                    <h3 className="font-display text-center text-[20px] font-semibold leading-[1.15] text-[#333] md:text-[24px]">{service.title}</h3>
                   </div>
                 </Link>
               ))}

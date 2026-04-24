@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { CookieIcon } from "./Icons";
 import { RollingButton } from "./RollingButton";
 
 type CookieSettings = {
@@ -102,8 +101,8 @@ export function CookieConsent() {
       {showBanner ? (
         <div className="fixed bottom-5 left-5 z-[80] max-w-[min(92vw,420px)] rounded-[8px] border border-neutral-200 bg-white p-5 shadow-[0_24px_70px_rgba(0,0,0,0.18)]">
           <div className="flex items-start gap-3">
-            <div className="flex h-11 w-11 items-center justify-center rounded-full bg-[#fdf0f3] text-[#f0425c]">
-              <CookieIcon className="h-5 w-5" />
+            <div className="flex h-11 w-11 items-center justify-center rounded-full bg-[#fdf0f3] text-[22px]">
+              🍪
             </div>
             <div className="min-w-0">
               <h3 className="font-display text-[20px] font-semibold text-neutral-950">Cookies</h3>
@@ -115,12 +114,12 @@ export function CookieConsent() {
                   label="Prijať všetko"
                   secondaryLabel="Prijať všetko"
                   tone="dark"
-                  className="h-11 px-6"
+                  className="h-11 px-6 !flex items-center justify-center"
                   onClick={() => persist({ necessary: true, analytics: true, marketing: true })}
                 />
                 <button
                   type="button"
-                  className="inline-flex h-11 items-center px-1 font-display text-[14px] font-semibold uppercase text-[#f0425c]"
+                  className="inline-flex h-11 items-center px-1 font-display text-[14px] font-semibold uppercase text-[#f0425c] underline underline-offset-4 hover:opacity-80 transition-all cursor-pointer"
                   onClick={() => setIsOpen(true)}
                 >
                   Nastavenia

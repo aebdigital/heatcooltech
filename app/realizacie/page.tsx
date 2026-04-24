@@ -26,7 +26,7 @@ export default function RealizaciePage() {
         {/* Hero Section - 35vh */}
         <section className="relative h-[35vh] min-h-[300px] w-full overflow-hidden bg-neutral-900">
           <Image 
-            src={allRealizations[1].src} 
+            src={allRealizations[5].src} 
             alt="Realizácie" 
             fill 
             className="object-cover opacity-50"

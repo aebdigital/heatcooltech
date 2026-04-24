@@ -38,17 +38,14 @@ export function FooterCredits() {
         <CookieSettingsButton className="underline underline-offset-4 transition hover:text-[#f0425c]">
           Cookies
         </CookieSettingsButton>
-        <p>
-          Tvorba stránky -{" "}
-          <a
-            className="underline underline-offset-4 transition hover:text-[#f0425c]"
-            href={site.footerCreditUrl}
-            target="_blank"
-            rel="noreferrer"
-          >
-            {site.footerCreditName}
-          </a>
-        </p>
+        <a
+          className="transition hover:text-[#f0425c] hover:underline hover:underline-offset-4"
+          href={site.footerCreditUrl}
+          target="_blank"
+          rel="noreferrer"
+        >
+          Tvorba stránky - {site.footerCreditName}
+        </a>
       </div>
     </div>
   );

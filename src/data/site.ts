@@ -70,8 +70,8 @@ export const navItems = [
 
 
 export const heroSlides = [
-  upload("20-769x1024.jpg"),
-  upload("104-1024x768.jpg"),
+  upload("4-1024x768.jpg"),
+  upload("5.jpg"),
   upload("200-1024x769.jpg"),
 ];
 
@@ -145,7 +145,6 @@ const heatPumpGallery = [
   "17-1024x769.jpg",
   "18-1024x768.jpg",
   "19-769x1024.jpg",
-  "20-769x1024.jpg",
   "21-768x1024.jpg",
   "23-1024x982.jpg",
   "24-513x1024.jpg",

@@ -160,7 +160,7 @@ export function ContentPage({ page }: Props) {
             ) : null}
 
             {page.paragraphs.length > 0 ? (
-              <div className="prose-copy text-[19px] leading-[2] text-[#555]" data-reveal>
+              <div className="prose-copy text-[19px] leading-[1.7] text-[#555]" data-reveal>
                 {page.paragraphs.map((paragraph) => (
                   <p key={paragraph} className="mb-6 last:mb-0">
                     {page.slug === "dotacie" && paragraph.includes("až do výšky 4 370 €") ? (
@@ -178,7 +178,7 @@ export function ContentPage({ page }: Props) {
             ) : null}
 
             {page.listItems?.length ? (
-              <ul className="mt-8 space-y-3 text-[19px] leading-[2] text-[#555]" data-reveal>
+              <ul className="mt-8 space-y-3 text-[19px] leading-[1.7] text-[#555]" data-reveal>
                 {page.listItems.map((item) => (
                   <li key={item} className="flex gap-4">
                     <span className="mt-[0.8em] h-[2px] w-5 shrink-0 bg-[#f0425c]" />
